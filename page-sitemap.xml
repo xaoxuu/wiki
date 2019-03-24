@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://xaoxuu.com/404.html</loc>
+        <lastmod>2019-03-24T09:30:14.687Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://xaoxuu.com/wiki/material-x/changelog/</loc>
         <lastmod>2019-03-23T16:43:02.534Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -71,14 +78,14 @@
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/noticeboard/notice.html</loc>
+        <loc>https://xaoxuu.com/wiki/noticeboard/noticeboard.html</loc>
         <lastmod>2019-03-09T18:04:53.459Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/noticeboard/noticeboard.html</loc>
+        <loc>https://xaoxuu.com/wiki/noticeboard/notice.html</loc>
         <lastmod>2019-03-09T18:04:53.459Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -113,14 +120,14 @@
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/material-x/submit/</loc>
+        <loc>https://xaoxuu.com/wiki/material-x/style/</loc>
         <lastmod>2019-03-09T18:04:53.457Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/material-x/style/</loc>
+        <loc>https://xaoxuu.com/wiki/material-x/submit/</loc>
         <lastmod>2019-03-09T18:04:53.457Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -197,14 +204,14 @@
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/axkit/responder.html</loc>
+        <loc>https://xaoxuu.com/wiki/axkit/runtime.html</loc>
         <lastmod>2019-03-09T18:04:53.452Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/axkit/runtime.html</loc>
+        <loc>https://xaoxuu.com/wiki/axkit/responder.html</loc>
         <lastmod>2019-03-09T18:04:53.452Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -239,6 +246,20 @@
     </url>
     
     <url>
+        <loc>https://xaoxuu.com/wiki/axkit/image_view.html</loc>
+        <lastmod>2019-03-09T18:04:53.451Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/wiki/axkit/</loc>
+        <lastmod>2019-03-09T18:04:53.451Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://xaoxuu.com/wiki/axkit/image.html</loc>
         <lastmod>2019-03-09T18:04:53.451Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -253,21 +274,7 @@
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/axkit/image_view.html</loc>
-        <lastmod>2019-03-09T18:04:53.451Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>https://xaoxuu.com/wiki/axkit/navigation.html</loc>
-        <lastmod>2019-03-09T18:04:53.451Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/wiki/axkit/</loc>
         <lastmod>2019-03-09T18:04:53.451Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -288,6 +295,13 @@
     </url>
     
     <url>
+        <loc>https://xaoxuu.com/wiki/axkit/email.html</loc>
+        <lastmod>2019-03-09T18:04:53.450Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://xaoxuu.com/wiki/axkit/error.html</loc>
         <lastmod>2019-03-09T18:04:53.450Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -296,13 +310,6 @@
     
     <url>
         <loc>https://xaoxuu.com/wiki/axkit/gcd.html</loc>
-        <lastmod>2019-03-09T18:04:53.450Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/wiki/axkit/email.html</loc>
         <lastmod>2019-03-09T18:04:53.450Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -387,13 +394,6 @@
     
     <url>
         <loc>https://xaoxuu.com/README.html</loc>
-        <lastmod>2019-03-09T18:04:53.444Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/404/</loc>
         <lastmod>2019-03-09T18:04:53.444Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
