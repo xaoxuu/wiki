@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>xaoxuu</title>
+  <title>xaoxuu&#39;s wiki</title>
   <icon>https://www.gravatar.com/avatar/adb7d1cd192658a55c0ad22a3309cecf</icon>
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/wiki/atom.xml" rel="self"/>
   
-  <link href="https://xaoxuu.com/"/>
-  <updated>2019-03-09T18:04:53.445Z</updated>
-  <id>https://xaoxuu.com/</id>
+  <link href="https://xaoxuu.com/wiki/"/>
+  <updated>2019-06-13T14:07:30.412Z</updated>
+  <id>https://xaoxuu.com/wiki/</id>
   
   <author>
     <name>xaoxuu</name>
@@ -17,9 +17,30 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="https://xaoxuu.com/wiki/posts/000/"/>
+    <id>https://xaoxuu.com/wiki/posts/000/</id>
+    <published>2019-06-13T14:07:30.411Z</published>
+    <updated>2019-06-13T14:07:30.412Z</updated>
+    
+    <content type="html"><![CDATA[<p>.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;.&lt;/p&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>更新了vim-cn脚本，支持下载到本地使用</title>
-    <link href="https://xaoxuu.com/posts/2018-11-26-vim-cn/"/>
-    <id>https://xaoxuu.com/posts/2018-11-26-vim-cn/</id>
+    <link href="https://xaoxuu.com/wiki/posts/2018-11-26-vim-cn/"/>
+    <id>https://xaoxuu.com/wiki/posts/2018-11-26-vim-cn/</id>
     <published>2018-11-25T16:00:00.000Z</published>
     <updated>2019-03-09T18:04:53.445Z</updated>
     
@@ -39,8 +60,8 @@
   
   <entry>
     <title>发布了vim-cn.sh，一个上传图片到img.vim-cn.com的脚本</title>
-    <link href="https://xaoxuu.com/posts/2018-09-23-vim-cn/"/>
-    <id>https://xaoxuu.com/posts/2018-09-23-vim-cn/</id>
+    <link href="https://xaoxuu.com/wiki/posts/2018-09-23-vim-cn/"/>
+    <id>https://xaoxuu.com/wiki/posts/2018-09-23-vim-cn/</id>
     <published>2018-09-22T16:00:00.000Z</published>
     <updated>2019-03-09T18:04:53.445Z</updated>
     
@@ -60,8 +81,8 @@
   
   <entry>
     <title>发布了Material X，一个简约卡片式的Hexo博客主题</title>
-    <link href="https://xaoxuu.com/posts/2018-08-14-material-x/"/>
-    <id>https://xaoxuu.com/posts/2018-08-14-material-x/</id>
+    <link href="https://xaoxuu.com/wiki/posts/2018-08-14-material-x/"/>
+    <id>https://xaoxuu.com/wiki/posts/2018-08-14-material-x/</id>
     <published>2018-08-13T16:00:00.000Z</published>
     <updated>2019-03-09T18:04:53.445Z</updated>
     
@@ -81,8 +102,8 @@
   
   <entry>
     <title>发布了NoticeBoard，一个iOS消息通知控件</title>
-    <link href="https://xaoxuu.com/posts/2018-07-30-noticeboard/"/>
-    <id>https://xaoxuu.com/posts/2018-07-30-noticeboard/</id>
+    <link href="https://xaoxuu.com/wiki/posts/2018-07-30-noticeboard/"/>
+    <id>https://xaoxuu.com/wiki/posts/2018-07-30-noticeboard/</id>
     <published>2018-07-29T16:00:00.000Z</published>
     <updated>2019-03-09T18:04:53.445Z</updated>
     
