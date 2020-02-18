@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/wiki/404.html","a4cbad6c4f1bd9541b4ff6bc1fe2e058"],["/wiki/README.html","0a8839936406e0277ca9e3d41838983f"],["/wiki/archives/2019/06/index.html","68b47079f2b32a51785faec169e334cd"],["/wiki/archives/2019/index.html","68b47079f2b32a51785faec169e334cd"],["/wiki/archives/index.html","68b47079f2b32a51785faec169e334cd"],["/wiki/atom.xml","3cfa1e2a712b1d5804d7cd06112851fb"],["/wiki/axkit/index.html","a5103dc17ba4e2d7a66c49661d7c92d1"],["/wiki/css/benchmark.css","bf03c68a6831e4dee2b23cdc37c14bfd"],["/wiki/css/index.css","95e274e9aad6708356d61e84bd0bd66d"],["/wiki/css/page.css","31efd4a991dea11d1015e9fe07bb75ab"],["/wiki/css/search.css","812e87f44dfc5907c69175482b9ca1b9"],["/wiki/heartmate/index.html","d55f88eda798abc534a639cee4f78ae7"],["/wiki/hexo-theme-resume/index.html","a2a244879e790836282ca6a74be3e449"],["/wiki/hexo.sh/index.html","dd37e818af53c8c5fa69f1bd1177b1f6"],["/wiki/index.html","c880f01e3f7078b47819b069036dbb25"],["/wiki/index/index.html","68b47079f2b32a51785faec169e334cd"],["/wiki/inspire/index.html","3b2a068d6add6c9445deac7e36875fba"],["/wiki/js/common.js","748b78854064e842c09d1b9605209bba"],["/wiki/js/css.escape.js","a2185e4074b2acf55b190d49300dc626"],["/wiki/js/smooth-scroll.min.js","53a7fcc785e987d5ed08302f36de6653"],["/wiki/js/vue.js","f4b9ce1ab181b7a316a0b3010670207c"],["/wiki/js/vue.min.js","5283b86cbf48a538ee3cbebac633ccd4"],["/wiki/material-x/advanced-settings/index.html","229f10bedd03a212d879a989afcc1a93"],["/wiki/material-x/contributors/index.html","afa5411393824fbe1209cf2d4592c0ad"],["/wiki/material-x/faqs/index.html","ee9fe20d87414dfa4301e9f98fa3fd27"],["/wiki/material-x/index.html","0c3d843755bca149dcc1ad926dd5c27b"],["/wiki/material-x/pages/index.html","9bc1f3aadba399744ec67d80b8867d8b"],["/wiki/material-x/site-settings/index.html","b8899689e01238d2aef1d8a8cc92ff72"],["/wiki/material-x/theme-settings/index.html","36a5c9959a590ed1b74903a3ae0dc7d2"],["/wiki/nexus/index.html","59fce423a53e8c6bc029fc2b74f2c01a"],["/wiki/noticeboard/index.html","c94fac18bd1aafc67266026f11cc9f3f"],["/wiki/page-sitemap.xml","7d72f33774c3eecfdb337322fb3d3dc0"],["/wiki/podspec.sh/index.html","d104e2baf35ec9ab7c3f8458387715ed"],["/wiki/post-sitemap.xml","202b6403a7efca818afb71837c92670d"],["/wiki/posts/000/index.html","fc00724aa4ab2f08d0c7132a9cc4c95a"],["/wiki/prohud/index.html","58a1a89050726a3d8d2c2d8bf3e011a7"],["/wiki/sitemap.xml","0cf3a80c6a914587cbe987f8510b4591"],["/wiki/smartlamp/index.html","030dc5be6c21df7baa4f82bcff5896b3"],["/wiki/valuex/index.html","497ce894d6b87740605858d4db0861bc"],["/wiki/vim-cn.sh/index.html","23851ab7f076daed01c84057d12dd9f0"]];
+var precacheConfig = [["/wiki/404.html","a4cbad6c4f1bd9541b4ff6bc1fe2e058"],["/wiki/README.html","0a8839936406e0277ca9e3d41838983f"],["/wiki/archives/2019/06/index.html","68b47079f2b32a51785faec169e334cd"],["/wiki/archives/2019/index.html","68b47079f2b32a51785faec169e334cd"],["/wiki/archives/index.html","68b47079f2b32a51785faec169e334cd"],["/wiki/atom.xml","3cfa1e2a712b1d5804d7cd06112851fb"],["/wiki/axkit/index.html","a5103dc17ba4e2d7a66c49661d7c92d1"],["/wiki/css/benchmark.css","bf03c68a6831e4dee2b23cdc37c14bfd"],["/wiki/css/index.css","95e274e9aad6708356d61e84bd0bd66d"],["/wiki/css/page.css","31efd4a991dea11d1015e9fe07bb75ab"],["/wiki/css/search.css","812e87f44dfc5907c69175482b9ca1b9"],["/wiki/heartmate/index.html","d55f88eda798abc534a639cee4f78ae7"],["/wiki/hexo-theme-resume/index.html","a2a244879e790836282ca6a74be3e449"],["/wiki/hexo.sh/index.html","dd37e818af53c8c5fa69f1bd1177b1f6"],["/wiki/index.html","c880f01e3f7078b47819b069036dbb25"],["/wiki/index/index.html","68b47079f2b32a51785faec169e334cd"],["/wiki/inspire/index.html","3b2a068d6add6c9445deac7e36875fba"],["/wiki/js/common.js","748b78854064e842c09d1b9605209bba"],["/wiki/js/css.escape.js","a2185e4074b2acf55b190d49300dc626"],["/wiki/js/smooth-scroll.min.js","53a7fcc785e987d5ed08302f36de6653"],["/wiki/js/vue.js","f4b9ce1ab181b7a316a0b3010670207c"],["/wiki/js/vue.min.js","5283b86cbf48a538ee3cbebac633ccd4"],["/wiki/material-x/advanced-settings/index.html","bdbbe128084bb58da4aa6c173b8b2af7"],["/wiki/material-x/contributors/index.html","afa5411393824fbe1209cf2d4592c0ad"],["/wiki/material-x/faqs/index.html","ee9fe20d87414dfa4301e9f98fa3fd27"],["/wiki/material-x/index.html","1ea8ef9b3ca279aa9e0e3713732bf683"],["/wiki/material-x/pages/index.html","79f3fd8d6340e599bd5de32850261446"],["/wiki/material-x/site-settings/index.html","412a26c6a1c1a0105e27827bdc0ace6b"],["/wiki/material-x/theme-settings/index.html","f915740e98b42322e37b0b3296d158a5"],["/wiki/nexus/index.html","59fce423a53e8c6bc029fc2b74f2c01a"],["/wiki/noticeboard/index.html","c94fac18bd1aafc67266026f11cc9f3f"],["/wiki/page-sitemap.xml","a95676183cf414fca7b70ed885c4b958"],["/wiki/podspec.sh/index.html","d104e2baf35ec9ab7c3f8458387715ed"],["/wiki/post-sitemap.xml","202b6403a7efca818afb71837c92670d"],["/wiki/posts/000/index.html","fc00724aa4ab2f08d0c7132a9cc4c95a"],["/wiki/prohud/index.html","58a1a89050726a3d8d2c2d8bf3e011a7"],["/wiki/sitemap.xml","22a6830b72ec96410142f543460be31c"],["/wiki/smartlamp/index.html","030dc5be6c21df7baa4f82bcff5896b3"],["/wiki/valuex/index.html","497ce894d6b87740605858d4db0861bc"],["/wiki/vim-cn.sh/index.html","23851ab7f076daed01c84057d12dd9f0"]];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
 
 
@@ -45,7 +45,7 @@ var ignoreUrlParametersMatching = [/^utm_/];
 
 
 
-var addDirectoryIndex = function (originalUrl, index) {
+var addDirectoryIndex = function(originalUrl, index) {
     var url = new URL(originalUrl);
     if (url.pathname.slice(-1) === '/') {
       url.pathname += index;
@@ -53,7 +53,7 @@ var addDirectoryIndex = function (originalUrl, index) {
     return url.toString();
   };
 
-var cleanResponse = function (originalResponse) {
+var cleanResponse = function(originalResponse) {
     // If this is not a redirected response, then we don't have to do anything.
     if (!originalResponse.redirected) {
       return Promise.resolve(originalResponse);
@@ -75,7 +75,7 @@ var cleanResponse = function (originalResponse) {
     });
   };
 
-var createCacheKey = function (originalUrl, paramName, paramValue,
+var createCacheKey = function(originalUrl, paramName, paramValue,
                            dontCacheBustUrlsMatching) {
     // Create a new URL object to avoid modifying originalUrl.
     var url = new URL(originalUrl);
@@ -91,7 +91,7 @@ var createCacheKey = function (originalUrl, paramName, paramValue,
     return url.toString();
   };
 
-var isPathWhitelisted = function (whitelist, absoluteUrlString) {
+var isPathWhitelisted = function(whitelist, absoluteUrlString) {
     // If the whitelist is empty, then consider all URLs to be whitelisted.
     if (whitelist.length === 0) {
       return true;
@@ -104,7 +104,7 @@ var isPathWhitelisted = function (whitelist, absoluteUrlString) {
     });
   };
 
-var stripIgnoredUrlParameters = function (originalUrl,
+var stripIgnoredUrlParameters = function(originalUrl,
     ignoreUrlParametersMatching) {
     var url = new URL(originalUrl);
     // Remove the hash; see https://github.com/GoogleChrome/sw-precache/issues/290

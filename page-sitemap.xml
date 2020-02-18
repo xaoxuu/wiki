@@ -8,6 +8,41 @@
     </url>
     
     <url>
+        <loc>https://xaoxuu.com/wiki/material-x/advanced-settings/</loc>
+        <lastmod>2020-02-18T13:28:42.439Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/wiki/material-x/pages/</loc>
+        <lastmod>2020-02-18T13:10:31.085Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/wiki/material-x/site-settings/</loc>
+        <lastmod>2020-02-18T12:44:06.178Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/wiki/material-x/theme-settings/</loc>
+        <lastmod>2020-02-18T12:37:40.678Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/wiki/material-x/</loc>
+        <lastmod>2020-02-18T11:25:09.705Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://xaoxuu.com/wiki/material-x/contributors/</loc>
         <lastmod>2020-02-09T10:50:28.411Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -15,29 +50,8 @@
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/material-x/advanced-settings/</loc>
-        <lastmod>2020-02-09T10:49:20.007Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/wiki/material-x/</loc>
-        <lastmod>2020-02-09T10:26:34.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>https://xaoxuu.com/wiki/heartmate/</loc>
         <lastmod>2020-02-09T10:14:25.832Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/wiki/material-x/pages/</loc>
-        <lastmod>2020-02-09T10:11:08.394Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -52,20 +66,6 @@
     <url>
         <loc>https://xaoxuu.com/wiki/smartlamp/</loc>
         <lastmod>2019-10-05T09:49:16.132Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/wiki/material-x/theme-settings/</loc>
-        <lastmod>2019-10-05T09:49:16.131Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/wiki/material-x/site-settings/</loc>
-        <lastmod>2019-10-05T09:49:16.128Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
