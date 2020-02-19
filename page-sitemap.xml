@@ -9,7 +9,21 @@
     
     <url>
         <loc>https://xaoxuu.com/wiki/material-x/</loc>
-        <lastmod>2020-02-19T09:50:18.563Z</lastmod>
+        <lastmod>2020-02-19T10:51:30.222Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/wiki/heartmate/</loc>
+        <lastmod>2020-02-19T10:38:39.425Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/wiki/material-x/contributors/</loc>
+        <lastmod>2020-02-19T10:35:09.441Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -38,20 +52,6 @@
     <url>
         <loc>https://xaoxuu.com/wiki/material-x/site-settings/</loc>
         <lastmod>2020-02-18T12:44:06.178Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/wiki/material-x/contributors/</loc>
-        <lastmod>2020-02-09T10:50:28.411Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/wiki/heartmate/</loc>
-        <lastmod>2020-02-09T10:14:25.832Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -99,14 +99,14 @@
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/vim-cn.sh/</loc>
+        <loc>https://xaoxuu.com/wiki/valuex/</loc>
         <lastmod>2019-08-29T15:51:56.748Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/valuex/</loc>
+        <loc>https://xaoxuu.com/wiki/vim-cn.sh/</loc>
         <lastmod>2019-08-29T15:51:56.748Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -120,14 +120,14 @@
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/noticeboard/</loc>
+        <loc>https://xaoxuu.com/wiki/podspec.sh/</loc>
         <lastmod>2019-08-29T15:51:56.746Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/podspec.sh/</loc>
+        <loc>https://xaoxuu.com/wiki/noticeboard/</loc>
         <lastmod>2019-08-29T15:51:56.746Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -141,14 +141,14 @@
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/inspire/</loc>
+        <loc>https://xaoxuu.com/wiki/hexo.sh/</loc>
         <lastmod>2019-08-29T15:51:56.740Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/hexo.sh/</loc>
+        <loc>https://xaoxuu.com/wiki/inspire/</loc>
         <lastmod>2019-08-29T15:51:56.740Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
