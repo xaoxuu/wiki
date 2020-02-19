@@ -9,7 +9,14 @@
     
     <url>
         <loc>https://xaoxuu.com/wiki/material-x/</loc>
-        <lastmod>2020-02-19T10:51:30.222Z</lastmod>
+        <lastmod>2020-02-19T12:43:33.298Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/wiki/material-x/contributors/</loc>
+        <lastmod>2020-02-19T12:39:25.524Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -17,13 +24,6 @@
     <url>
         <loc>https://xaoxuu.com/wiki/heartmate/</loc>
         <lastmod>2020-02-19T10:38:39.425Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/wiki/material-x/contributors/</loc>
-        <lastmod>2020-02-19T10:35:09.441Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -120,14 +120,14 @@
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/podspec.sh/</loc>
+        <loc>https://xaoxuu.com/wiki/noticeboard/</loc>
         <lastmod>2019-08-29T15:51:56.746Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/wiki/noticeboard/</loc>
+        <loc>https://xaoxuu.com/wiki/podspec.sh/</loc>
         <lastmod>2019-08-29T15:51:56.746Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
