@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme='Volantis' version='1.5' docs='https://xaoxuu.com/wiki/material-x/'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <title>主题配置 | Volantis</title>
+  
+  
+
+  
+  <link rel="alternate" href="/wiki/volantis/atom.xml" title="Volantis">
+  
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- meta -->
+  
+  
+  <meta name='theme-color' content='#FFFFFF'>
+  <meta name='msapplication-TileColor' content='#1BC3FB'>
+  <meta name='msapplication-config' content='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/browserconfig.xml'>
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css">
+  
+  
+  <link rel='shortcut icon' type='image/x-icon' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/favicon.ico'>
+  <link rel='icon' type='image/x-icon' sizes='32x32' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/favicon-32x32.png'>
+  <link rel='apple-touch-icon' type='image/png' sizes='180x180' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/apple-touch-icon.png'>
+  <link rel='mask-icon' color='#1BC3FB' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/safari-pinned-tab.svg'>
+  <link rel='manifest' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/site.webmanifest'>
+  
+
+  
+
+  
+
+  
+    
+<link rel="stylesheet" href="/wiki/volantis/style.css">
+
+  
+
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+
+  
+  
+</head>
+
+<body>
+  
+  
+  <header class="l_header nav-blur">
+  <div id="loading-bar-wrapper">
+    <div id="loading-bar"></div>
+  </div>
+
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+      <a class="logo flat-box" target="_self" href='/wiki/volantis/' >
+        
+          
+          
+            VOLANTIS
+          
+        
+      </a>
+			<div class='menu navgation'>
+				<ul class='h-list'>
+          
+  					
+  						<li>
+								<a class="nav flat-box" href="/wiki/volantis/start"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="wikivolantisstart">
+									<i class='fas fa-download fa-fw'></i>&nbsp;开始使用
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/wiki/volantis/site-settings"
+                  
+                  
+                    target="_self"
+                  
+                  id="wikivolantissite-settings">
+									<i class='fas fa-cogs fa-fw'></i>&nbsp;站点配置
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/wiki/volantis/theme-settings"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="wikivolantistheme-settings">
+									<i class='fas fa-palette fa-fw'></i>&nbsp;主题配置
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/wiki/volantis/page-settings"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="wikivolantispage-settings">
+									<i class='fas fa-file-alt fa-fw'></i>&nbsp;页面配置
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/wiki/volantis/advanced-settings"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="wikivolantisadvanced-settings">
+									<i class='fas fa-flask fa-fw'></i>&nbsp;进阶设定
+								</a>
+							</li>
+      			
+      		
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="搜索文档" />
+        </form>
+      </div>
+
+			<ul class='switcher h-list'>
+				
+					<li class='s-search'><a class="fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li class='s-menu'><a class="fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a></li>
+			</ul>
+		</div>
+
+		<div class='nav-sub container container--flex'>
+			<a class="logo flat-box"></a>
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a class="flat-btn fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li class='s-toc'><a class="flat-btn fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+			</ul>
+		</div>
+	</div>
+</header>
+	<aside class="menu-phone white-box  widget-blur">
+    <header>
+		<nav class="menu navgation">
+      <ul>
+        
+          
+            <li>
+							<a class="nav flat-box" href="/wiki/volantis/"
+                
+                
+                id="wikivolantis">
+								<i class='fas fa-clock fa-fw'></i>&nbsp;近期文章
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/wiki/volantis/about/"
+                
+                  rel="nofollow"
+                
+                
+                id="wikivolantisabout">
+								<i class='fas fa-info-circle fa-fw'></i>&nbsp;关于小站
+							</a>
+            </li>
+          
+       
+      </ul>
+		</nav>
+    </header>
+	</aside>
+<script>setLoadingBarProgress(40);</script>
+
+
+
+  <div class="l_body nocover">
+    <div class='body-wrapper'>
+      <div class='l_main'>
+  
+
+  
+    <article id="page" class="post white-box  body-blur article-type-page" itemscope itemprop="blogPost">
+      
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  
+    <h1 class="title">
+      <a href="/wiki/volantis/theme-settings/index.html">
+        主题配置
+      </a>
+    </h1>
+  
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-edit" aria-hidden="true"></i>
+    <p>发布于：2020年2月22日</p>
+  </a>
+</div>
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-02-22T01:15:10+08:00">
+  <a class='notlink'>
+    <i class="fas fa-save" aria-hidden="true"></i>
+    <p>更新于：2020年2月22日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+      <section class="article typo">
+        <div class="article-entry" itemprop="articleBody">
+          
+          <p>如无特殊说明，本页面的配置信息写在<red><strong>主题</strong></red>的 <code>config.yml</code> 文件中。</p>
+<h2 id="设置幻灯片背景">设置幻灯片背景</h2>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">backstretch:</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">background</span>  <span class="comment"># cover: 封面背景   background: 整个网页背景</span></span><br><span class="line">  <span class="attr">duration:</span> <span class="number">6000</span>        <span class="comment"># 持续时间（毫秒）</span></span><br><span class="line">  <span class="attr">fade:</span> <span class="number">2500</span>            <span class="comment"># 渐变（毫秒）</span></span><br><span class="line">  <span class="attr">images:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg</span></span><br><span class="line">    <span class="comment"># - https://i.loli.net/2020/02/08/dNJyR4LHtarTqPu.jpg</span></span><br><span class="line">    <span class="comment"># - https://i.loli.net/2020/02/08/yXx4GwgZYdi81Qs.jpg</span></span><br><span class="line">    <span class="comment"># - https://i.loli.net/2020/02/08/RP7JpGvWaCYfuB6.jpg</span></span><br></pre></td></tr></table></figure>
+<div class="info">
+<p>images中设置多个图片即自动循环播放。</p>
+</div>
+<h2 id="设置封面">设置封面</h2>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment"># page的封面</span></span><br><span class="line"><span class="attr">cover:</span></span><br><span class="line">  <span class="attr">scheme:</span> <span class="string">search</span>    <span class="comment"># 后期将会提供多种封面方案</span></span><br><span class="line">  <span class="comment"># height: half      # full（默认值）: 首页封面占据整个第一屏幕，其他页面占半个屏幕高度， half: 所有页面都封面都只占半个屏幕高度</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">xaoxuu</span></span><br><span class="line">  <span class="comment"># logo:    # logo和title只显示一个，若同时设置，则只显示logo</span></span><br><span class="line">  <span class="comment"># search: '搜索'</span></span><br><span class="line">  <span class="comment"># 主页封面菜单</span></span><br><span class="line">  <span class="attr">features:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">博文</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-rss</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">/</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">项目</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-code-branch</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">projects/</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">归档</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-archive</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">blog/archives/</span></span><br><span class="line">      <span class="attr">rel:</span> <span class="string">nofollow</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">关于</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-info-circle</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">about/</span></span><br><span class="line">      <span class="attr">rel:</span> <span class="string">nofollow</span></span><br></pre></td></tr></table></figure>
+<h2 id="设置导航栏">设置导航栏</h2>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">navbar:</span></span><br><span class="line">  <span class="comment"># 左侧logo区</span></span><br><span class="line">  <span class="attr">logo:</span></span><br><span class="line">    <span class="comment"># 显示图片，使用图片时将不会显示icon和title</span></span><br><span class="line">    <span class="attr">img:</span> <span class="comment"># https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.7/apple-touch-icon.png</span></span><br><span class="line">    <span class="comment"># 显示图标</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-home</span></span><br><span class="line">    <span class="comment"># 显示标题</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">XAOXUU</span></span><br><span class="line">  <span class="comment"># logo后面的导航菜单</span></span><br><span class="line">  <span class="attr">menu:</span></span><br><span class="line">    <span class="comment"># 在桌面端显示的导航菜单</span></span><br><span class="line">    <span class="attr">on_desktop:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">近期</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-hourglass-half</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">/</span></span><br><span class="line">        <span class="attr">target:</span> <span class="string">_self</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">分类</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-folder-open</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">blog/categories/</span></span><br><span class="line">        <span class="attr">rel:</span> <span class="string">nofollow</span></span><br><span class="line">        <span class="attr">target:</span> <span class="string">_self</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">标签</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-hashtag</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">blog/tags/</span></span><br><span class="line">        <span class="attr">rel:</span> <span class="string">nofollow</span></span><br><span class="line">        <span class="attr">target:</span> <span class="string">_self</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">归档</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-archive</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">blog/archives/</span></span><br><span class="line">        <span class="attr">rel:</span> <span class="string">nofollow</span></span><br><span class="line">        <span class="attr">target:</span> <span class="string">_self</span></span><br><span class="line">    <span class="comment"># 手机端导航菜单（从右上角的按钮点击展开）</span></span><br><span class="line">    <span class="attr">on_mobile:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">近期文章</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-clock</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">/</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">文章归档</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-archive</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">blog/archives/</span></span><br><span class="line">        <span class="attr">rel:</span> <span class="string">nofollow</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">开源项目</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-code-branch</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">projects/</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">我的友链</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-link</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">friends/</span></span><br><span class="line">        <span class="attr">rel:</span> <span class="string">nofollow</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">主题文档</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-book</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">https://xaoxuu.com/wiki/material-x/</span></span><br><span class="line">        <span class="attr">rel:</span> <span class="string">nofollow</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">关于小站</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-info-circle</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">about/</span></span><br><span class="line">        <span class="attr">rel:</span> <span class="string">nofollow</span></span><br><span class="line">  <span class="attr">search:</span> <span class="string">搜索一下</span>   <span class="comment"># 搜索框文字</span></span><br></pre></td></tr></table></figure>
+<p>其中 icon 是 <code>fontawesome</code> 图标名，你要显示什么图标，去 <a href="https://fontawesome.com/icons?d=gallery&amp;m=free" target="_blank" rel="noopener">fontawesome.com</a> 找免费版的就可以了。</p>
+<h2 id="毛玻璃与卡片阴影">毛玻璃与卡片阴影</h2>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment"># 样式</span></span><br><span class="line"><span class="attr">style:</span></span><br><span class="line">  <span class="comment"># 卡片阴影效果</span></span><br><span class="line">  <span class="attr">shadow:</span></span><br><span class="line">    <span class="comment"># 导航栏阴影</span></span><br><span class="line">    <span class="attr">nav:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># 卡片阴影和悬浮动画</span></span><br><span class="line">    <span class="comment"># card: true</span></span><br><span class="line">  <span class="comment"># 毛玻璃效果 具体效果调整在： source/less/_color.less</span></span><br><span class="line">  <span class="attr">blur:</span></span><br><span class="line">    <span class="attr">navbar:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">widget:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">body:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<div class="success">
+<p><strong>建议：</strong></p>
+<ul>
+<li>有背景图：开启毛玻璃，关闭卡片阴影</li>
+<li>无背景图：关闭毛玻璃，开启卡片阴影</li>
+</ul>
+</div>
+<p>数值调整：</p>
+<figure class="highlight less"><figcaption><span>themes/material-x/source/less/_color.less</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment">// 导航栏毛玻璃效果</span></span><br><span class="line"><span class="selector-class">.nav-blur</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: fade(<span class="variable">@theme_cardbg</span>, <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">backdrop-filter</span>: blur(<span class="number">50px</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 卡片毛玻璃效果</span></span><br><span class="line"><span class="selector-class">.body-blur</span>,<span class="selector-class">.widget-blur</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: fade(<span class="variable">@theme_cardbg</span>, <span class="number">75%</span>);</span><br><span class="line">  <span class="attribute">backdrop-filter</span>: blur(<span class="number">50px</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="模块化布局">模块化布局</h2>
+<p>这里的「布局」是指放置什么模块、顺序如何。对于一个普通文章页面来说，左侧区域称为 <code>body</code>，右侧区域称为 <code>sidebar</code>，左侧body区域默认上下分为 <code>article</code>、<code>comments</code> 两个模块。层级图为：</p>
+<p><fancybox><img src='https://i.loli.net/2020/02/18/Y1wm5OnSPVuJpTG.png'></fancybox></p>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">layout:</span></span><br><span class="line">  <span class="comment"># 文章列表（主页、自定义的列表）布局</span></span><br><span class="line">  <span class="attr">on_list:</span></span><br><span class="line">    <span class="comment"># 列表中每一篇文章的meta信息</span></span><br><span class="line">    <span class="attr">meta:</span> <span class="string">[title,</span> <span class="string">author,</span> <span class="string">date,</span> <span class="string">category,</span> <span class="string">wordcount,</span> <span class="string">top]</span></span><br><span class="line">    <span class="comment"># 列表类页面的侧边栏</span></span><br><span class="line">    <span class="attr">sidebar:</span> <span class="string">[blogger,</span> <span class="string">dao_hang,</span> <span class="string">huan_ying,</span> <span class="string">category,</span> <span class="string">tagcloud,</span> <span class="string">tui_jian,</span> <span class="string">donate]</span></span><br><span class="line">  <span class="comment"># 文章页面布局</span></span><br><span class="line">  <span class="attr">on_page:</span></span><br><span class="line">    <span class="comment"># 文章页面主体元素，你也可以在页面的Front-matter中设置</span></span><br><span class="line">    <span class="attr">body:</span> <span class="string">[article,</span> <span class="string">comments]</span></span><br><span class="line">    <span class="comment"># 默认的meta信息，文章中没有配置则按照这里的配置来显示，设置为false则不显示</span></span><br><span class="line">    <span class="comment"># 其中，title只在header中有效，music和thumbnail无需在这里设置，文章中有则显示</span></span><br><span class="line">    <span class="comment"># 如果tags放置在meta.header中，那么在post列表中不显示（因为卡片下方已经有了）</span></span><br><span class="line">    <span class="attr">meta:</span></span><br><span class="line">      <span class="attr">header:</span> <span class="string">[title,</span> <span class="string">author,</span> <span class="string">date,</span> <span class="string">category,</span> <span class="string">counter,</span> <span class="string">wordcount,</span> <span class="string">top]</span></span><br><span class="line">      <span class="attr">footer:</span> <span class="string">[updated,</span> <span class="string">tags,</span> <span class="string">share]</span></span><br><span class="line">    <span class="comment"># 文章页脚，自动在每一篇文章末尾添加</span></span><br><span class="line">    <span class="attr">footer:</span> <span class="string">[copyright,</span> <span class="string">donate]</span></span><br><span class="line">    <span class="comment"># 文章页面的侧边栏</span></span><br><span class="line">    <span class="attr">sidebar:</span> <span class="string">[blogger,</span> <span class="string">toc,</span> <span class="string">category,</span> <span class="string">tagcloud,</span> <span class="string">donate]</span></span><br><span class="line">  <span class="comment"># 其他的页面布局暂时等于文章列表</span></span><br></pre></td></tr></table></figure>
+<p>其中 <code>meta</code>、<code>meta.header</code>、<code>meta.footer</code> 从 <a href="#Meta%E5%BA%93">Meta库</a> 中选取，其他字段值均从 <a href="#%E7%BB%84%E4%BB%B6%E5%BA%93">组件库</a> 中选取。</p>
+<h2 id="Meta库">Meta库</h2>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">meta:</span></span><br><span class="line">  <span class="comment"># 文章标题</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># 暂无配置</span></span><br><span class="line">  <span class="comment"># 文章作者</span></span><br><span class="line">  <span class="attr">author:</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-user</span> <span class="comment"># 如果配置了头像，则不会显示图标</span></span><br><span class="line">  <span class="comment"># 文章创建日期</span></span><br><span class="line">  <span class="attr">date:</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-edit</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">'发布于：'</span></span><br><span class="line">    <span class="attr">format:</span> <span class="string">'ll'</span> <span class="comment"># 日期格式 http://momentjs.com/docs/</span></span><br><span class="line">  <span class="comment"># 文章更新日期</span></span><br><span class="line">  <span class="attr">updated:</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-save</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">'更新于：'</span></span><br><span class="line">    <span class="attr">format:</span> <span class="string">'ll'</span> <span class="comment"># 日期格式 http://momentjs.com/docs/</span></span><br><span class="line">  <span class="comment"># 文章分类</span></span><br><span class="line">  <span class="attr">category:</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-folder-open</span></span><br><span class="line">  <span class="comment"># 文章置顶</span></span><br><span class="line">  <span class="attr">top:</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-angle-double-up</span></span><br><span class="line">  <span class="comment"># 文章浏览计数</span></span><br><span class="line">  <span class="attr">counter:</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-eye</span></span><br><span class="line">  <span class="comment"># 文章字数和阅读时长</span></span><br><span class="line">  <span class="attr">wordcount:</span></span><br><span class="line">    <span class="attr">icon_wordcount:</span> <span class="string">fas</span> <span class="string">fa-keyboard</span></span><br><span class="line">    <span class="attr">icon_duration:</span> <span class="string">fas</span> <span class="string">fa-hourglass-half</span></span><br><span class="line">  <span class="comment"># 文章标签</span></span><br><span class="line">  <span class="attr">tags:</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-tag</span></span><br><span class="line">  <span class="comment"># 分享</span></span><br><span class="line">  <span class="attr">share:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">qq</span></span><br><span class="line">      <span class="attr">name:</span> <span class="string">QQ好友</span></span><br><span class="line">      <span class="attr">img:</span> <span class="string">https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qq.png</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">qzone</span></span><br><span class="line">      <span class="attr">name:</span> <span class="string">QQ空间</span></span><br><span class="line">      <span class="attr">img:</span> <span class="string">https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qzone.png</span></span><br><span class="line">    <span class="comment"># - id: qrcode # 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode</span></span><br><span class="line">    <span class="comment">#   name: 微信</span></span><br><span class="line">    <span class="comment">#   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/wechat.png</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">weibo</span></span><br><span class="line">      <span class="attr">name:</span> <span class="string">微博</span></span><br><span class="line">      <span class="attr">img:</span> <span class="string">https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/weibo.png</span></span><br><span class="line">    <span class="comment"># - id: qrcode # 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode</span></span><br><span class="line">    <span class="comment">#   name: QRcode</span></span><br><span class="line">    <span class="comment">#   img: https://cdn.jsdelivr.net/gh/xaoxuu/assets@19.1.9/logo/128/qrcode.png</span></span><br><span class="line">  <span class="comment"># 链接</span></span><br><span class="line">  <span class="attr">links:</span></span><br><span class="line">    <span class="attr">repo:</span> <span class="comment"># 源码链接</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-code-branch</span></span><br><span class="line">      <span class="attr">title:</span> <span class="string">源码</span></span><br><span class="line">      <span class="attr">color:</span> <span class="string">'#508EF2'</span></span><br><span class="line">    <span class="attr">bug:</span> <span class="comment"># BUG反馈链接</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-bug</span></span><br><span class="line">      <span class="attr">title:</span> <span class="string">BUG</span></span><br><span class="line">      <span class="attr">color:</span> <span class="string">'#FE5F58'</span></span><br><span class="line">    <span class="attr">doubt:</span> <span class="comment"># 疑问链接</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-question-circle</span></span><br><span class="line">      <span class="attr">title:</span> <span class="string">疑问</span></span><br><span class="line">      <span class="attr">color:</span> <span class="string">'#FFBD2B'</span></span><br><span class="line">    <span class="attr">idea:</span> <span class="comment"># 建议链接</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-lightbulb</span></span><br><span class="line">      <span class="attr">title:</span> <span class="string">建议</span></span><br><span class="line">      <span class="attr">color:</span> <span class="string">'#3DC550'</span></span><br><span class="line">    <span class="attr">faq:</span> <span class="comment"># FAQ链接</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-comments</span></span><br><span class="line">      <span class="attr">title:</span> <span class="string">FAQ</span></span><br><span class="line">      <span class="attr">color:</span> <span class="string">'#29B1C9'</span></span><br><span class="line">    <span class="attr">feedback:</span> <span class="comment"># 反馈链接</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-comment-dots</span></span><br><span class="line">      <span class="attr">title:</span> <span class="string">反馈</span></span><br><span class="line">      <span class="attr">color:</span> <span class="string">'#1BCDFC'</span></span><br></pre></td></tr></table></figure>
+<h2 id="组件库">组件库</h2>
+<p>组件库中的小部件通常可用于侧边栏、左边主体区域，部分也可用作文章页脚。组件的类别（class）共有以下几种：</p>
+<table>
+<thead>
+<tr>
+<th>class</th>
+<th>功能</th>
+<th>适用区域</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>blogger</td>
+<td>博主信息模块</td>
+<td>sidebar</td>
+</tr>
+<tr>
+<td>toc</td>
+<td>目录</td>
+<td>sidebar</td>
+</tr>
+<tr>
+<td>category</td>
+<td>文章分类</td>
+<td>sidebar、body</td>
+</tr>
+<tr>
+<td>tagcloud</td>
+<td>标签云</td>
+<td>sidebar、body、article</td>
+</tr>
+<tr>
+<td>related_posts</td>
+<td>相关文章推荐</td>
+<td>sidebar、body、article</td>
+</tr>
+<tr>
+<td>copyright</td>
+<td>版权标识</td>
+<td>article</td>
+</tr>
+<tr>
+<td>donate</td>
+<td>打赏控件</td>
+<td>sidebar、body、article</td>
+</tr>
+<tr>
+<td>text</td>
+<td>文本控件</td>
+<td>sidebar、body、article</td>
+</tr>
+<tr>
+<td>grid</td>
+<td>网格控件</td>
+<td>sidebar、body、article</td>
+</tr>
+<tr>
+<td>list</td>
+<td>列表控件</td>
+<td>sidebar、body、article</td>
+</tr>
+</tbody>
+</table>
+<p>一种类型的组件可以创建多个，以 <code>id</code> 区分。</p>
+<h3 id="blogger">blogger</h3>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">widget:</span></span><br><span class="line">  <span class="comment"># ---------------------------------------</span></span><br><span class="line">  <span class="comment"># 博主信息小部件配置</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">blogger</span></span><br><span class="line">    <span class="attr">class:</span> <span class="string">blogger</span></span><br><span class="line">    <span class="attr">avatar:</span> <span class="string">https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png</span></span><br><span class="line">    <span class="comment"># title:  标题</span></span><br><span class="line">    <span class="comment"># subtitle: 副标题</span></span><br><span class="line">    <span class="attr">jinrishici:</span> <span class="literal">true</span> <span class="comment"># 今日诗词。可以设置字符串，加载失败时会显示占位字符串。</span></span><br><span class="line">    <span class="attr">social:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<h3 id="toc">toc</h3>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">widget:</span></span><br><span class="line">  <span class="comment"># ---------------------------------------</span></span><br><span class="line">  <span class="comment"># 目录小部件配置(仅在文章中有效)</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">toc</span></span><br><span class="line">    <span class="attr">class:</span> <span class="string">toc</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-list</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">本文目录</span></span><br><span class="line">    <span class="attr">list_number:</span> <span class="literal">false</span> <span class="comment"># 是否显示章节</span></span><br><span class="line">    <span class="attr">min_depth:</span> <span class="number">2</span> <span class="comment"># H1建议用作网页或者文章的标题，章节从H2开始。</span></span><br><span class="line">    <span class="attr">max_depth:</span> <span class="number">5</span> <span class="comment"># 由于宽度有限，主题没有针对所有层级进行布局优化，建议文章最多分为：H2/H3/H4/H5四个层级</span></span><br></pre></td></tr></table></figure>
+<h3 id="category">category</h3>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">widget:</span></span><br><span class="line">  <span class="comment"># ---------------------------------------</span></span><br><span class="line">  <span class="comment"># 文章分类小部件配置</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">category</span></span><br><span class="line">    <span class="attr">class:</span> <span class="string">category</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-folder-open</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">文章分类</span></span><br><span class="line">    <span class="attr">more:</span> <span class="comment"># 右上角的按钮</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-expand-arrows-alt</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">blog/categories/</span></span><br><span class="line">      <span class="attr">rel:</span> <span class="string">external</span> <span class="string">nofollow</span> <span class="string">noopener</span> <span class="string">noreferrer</span></span><br><span class="line">      <span class="attr">target:</span> <span class="string">_self</span></span><br></pre></td></tr></table></figure>
+<h3 id="tagcloud">tagcloud</h3>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">widget:</span></span><br><span class="line">  <span class="comment"># ---------------------------------------</span></span><br><span class="line">  <span class="comment"># 标签云小部件配置</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">tagcloud</span></span><br><span class="line">    <span class="attr">class:</span> <span class="string">tagcloud</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-tags</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">热门标签</span></span><br><span class="line">    <span class="attr">more:</span> <span class="comment"># 右上角的按钮</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-expand-arrows-alt</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">blog/tags/</span></span><br><span class="line">      <span class="attr">rel:</span> <span class="string">external</span> <span class="string">nofollow</span> <span class="string">noopener</span> <span class="string">noreferrer</span></span><br><span class="line">      <span class="attr">target:</span> <span class="string">_self</span></span><br><span class="line">    <span class="attr">min_font:</span> <span class="number">14</span></span><br><span class="line">    <span class="attr">max_font:</span> <span class="number">24</span></span><br><span class="line">    <span class="attr">color:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">start_color:</span> <span class="string">'#999'</span></span><br><span class="line">    <span class="attr">end_color:</span> <span class="string">'#555'</span></span><br></pre></td></tr></table></figure>
+<h3 id="related-posts">related_posts</h3>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">widget:</span></span><br><span class="line">  <span class="comment"># ---------------------------------------</span></span><br><span class="line">  <span class="comment"># 相关文章小部件配置</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">related_posts</span></span><br><span class="line">    <span class="attr">class:</span> <span class="string">related_posts</span> <span class="comment"># 需要安装插件  npm i -S hexo-related-popular-posts</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-bookmark</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">相关文章</span></span><br></pre></td></tr></table></figure>
+<h3 id="copyright">copyright</h3>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">widget:</span></span><br><span class="line">  <span class="comment"># ---------------------------------------</span></span><br><span class="line">  <span class="comment"># 版权说明小部件（仅用于文章中）</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">copyright</span></span><br><span class="line">    <span class="attr">class:</span> <span class="string">copyright</span></span><br><span class="line">    <span class="attr">permalink:</span> <span class="string">'本文永久链接是：'</span> <span class="comment"># 显示文章永久链接</span></span><br><span class="line">    <span class="attr">content:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">'这是文章页脚，可以放置版权说明以及打赏图片。&lt;br&gt;博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议'</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">''</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">permalink</span></span><br></pre></td></tr></table></figure>
+<h3 id="donate">donate</h3>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">widget:</span></span><br><span class="line">  <span class="comment"># ---------------------------------------</span></span><br><span class="line">  <span class="comment"># 捐赠小部件（可用于文章中和侧边栏）</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">donate</span></span><br><span class="line">    <span class="attr">class:</span> <span class="string">donate</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-donate</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">打赏</span></span><br><span class="line">    <span class="attr">height:</span> <span class="string">64px</span></span><br><span class="line">    <span class="attr">fancybox:</span> <span class="literal">true</span> <span class="comment"># 是否允许点击放大</span></span><br><span class="line">    <span class="attr">images:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png</span></span><br><span class="line">      <span class="comment"># - https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png</span></span><br><span class="line">      <span class="comment"># - https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png</span></span><br><span class="line">      <span class="comment"># - https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png</span></span><br></pre></td></tr></table></figure>
+<h3 id="text">text</h3>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">widget:</span></span><br><span class="line">  <span class="comment"># ---------------------------------------</span></span><br><span class="line">  <span class="comment"># 自定义组件，仿照如下写法</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">huan_ying</span> <span class="comment"># 唯一标识，自己命名，建议全英文</span></span><br><span class="line">    <span class="attr">class:</span> <span class="string">text</span> <span class="comment"># 小部件类型，对应_widget文件夹中的文件名</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-file</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">文本部件</span></span><br><span class="line">    <span class="attr">content:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">'这是一段支持markdown的文本'</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">'![](https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png)'</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">haha</span></span><br><span class="line">    <span class="attr">more:</span> <span class="comment"># 右上角的按钮</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">far</span> <span class="string">fa-heart</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">https://music.163.com/#/user/home?id=63035382</span></span><br><span class="line">      <span class="attr">rel:</span> <span class="string">external</span> <span class="string">nofollow</span> <span class="string">noopener</span> <span class="string">noreferrer</span></span><br><span class="line">      <span class="attr">target:</span> <span class="string">_blank</span></span><br></pre></td></tr></table></figure>
+<h3 id="grid">grid</h3>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">widget:</span></span><br><span class="line">  <span class="comment"># ---------------------------------------</span></span><br><span class="line">  <span class="comment"># 自定义组件，仿照如下写法</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">dao_hang</span></span><br><span class="line">    <span class="attr">class:</span> <span class="string">grid</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-map-signs</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">站内导航</span></span><br><span class="line">    <span class="attr">rows:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">近期文章</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-clock</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">/</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">文章归档</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-archive</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">blog/archives/</span></span><br><span class="line">        <span class="attr">rel:</span> <span class="string">external</span> <span class="string">nofollow</span> <span class="string">noopener</span> <span class="string">noreferrer</span></span><br><span class="line">        <span class="attr">target:</span> <span class="string">_self</span></span><br><span class="line">    <span class="attr">more:</span> <span class="comment"># 右上角的按钮</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">far</span> <span class="string">fa-heart</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">https://music.163.com/#/user/home?id=63035382</span></span><br><span class="line">      <span class="attr">rel:</span> <span class="string">external</span> <span class="string">nofollow</span> <span class="string">noopener</span> <span class="string">noreferrer</span></span><br><span class="line">      <span class="attr">target:</span> <span class="string">_blank</span></span><br></pre></td></tr></table></figure>
+<h3 id="list">list</h3>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">widget:</span></span><br><span class="line">  <span class="comment"># ---------------------------------------</span></span><br><span class="line">  <span class="comment"># 自定义组件，仿照如下写法</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">tui_jian</span></span><br><span class="line">    <span class="attr">class:</span> <span class="string">list</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-thumbs-up</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">强烈推荐</span></span><br><span class="line">    <span class="attr">rows:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">带图片的列表</span></span><br><span class="line">        <span class="attr">img:</span> <span class="string">https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">带图标的列表</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-home</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Hexo脚本（Mac）</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">https://xaoxuu.com/wiki/hexo.sh/</span></span><br><span class="line">        <span class="attr">rel:</span> <span class="string">external</span> <span class="string">nofollow</span> <span class="string">noopener</span> <span class="string">noreferrer</span></span><br><span class="line">        <span class="attr">target:</span> <span class="string">_blank</span></span><br><span class="line">    <span class="attr">more:</span> <span class="comment"># 右上角的按钮</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">far</span> <span class="string">fa-heart</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">https://music.163.com/#/user/home?id=63035382</span></span><br><span class="line">      <span class="attr">rel:</span> <span class="string">external</span> <span class="string">nofollow</span> <span class="string">noopener</span> <span class="string">noreferrer</span></span><br><span class="line">      <span class="attr">target:</span> <span class="string">_blank</span></span><br></pre></td></tr></table></figure>
+<h2 id="APlayer播放器">APlayer播放器</h2>
+<p>各个字段参数取值都有备注：</p>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment"># APlayer配置 https://github.com/metowolf/MetingJS</span></span><br><span class="line"><span class="attr">aplayer:</span></span><br><span class="line">  <span class="comment"># 是否启用，注释此项则不加载服务</span></span><br><span class="line">  <span class="comment"># enable: true</span></span><br><span class="line">  <span class="comment"># 必选参数</span></span><br><span class="line">  <span class="attr">server:</span> <span class="string">netease</span>   <span class="comment"># netease, tencent, kugou, xiami, baidu</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">playlist</span>    <span class="comment"># song, playlist, album, search, artist</span></span><br><span class="line">  <span class="attr">id:</span> <span class="number">3175833810</span>    <span class="comment"># song id / playlist id / album id / search keyword</span></span><br><span class="line">  <span class="comment"># 可选参数</span></span><br><span class="line">  <span class="attr">fixed:</span> <span class="literal">false</span>      <span class="comment"># enable fixed mode</span></span><br><span class="line">  <span class="attr">theme:</span> <span class="string">'#1BCDFC'</span>  <span class="comment"># main color</span></span><br><span class="line">  <span class="attr">autoplay:</span> <span class="literal">false</span>   <span class="comment"># audio autoplay</span></span><br><span class="line">  <span class="attr">order:</span> <span class="string">list</span>       <span class="comment"># player play order, values: 'list', 'random'</span></span><br><span class="line">  <span class="attr">loop:</span> <span class="string">all</span>         <span class="comment"># player loop play, values: 'all', 'one', 'none'</span></span><br><span class="line">  <span class="attr">volume:</span> <span class="number">0.7</span>       <span class="comment"># default volume, notice that player will remember user setting, default volume will not work after user set volume themselves</span></span><br><span class="line">  <span class="attr">list_max_height:</span> <span class="string">340px</span> <span class="comment"># list max height</span></span><br><span class="line">  <span class="attr">list_folded:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>相关文档：</p>
+<ul>
+<li><a href="https://aplayer.js.org/" target="_blank" rel="noopener">APlayer</a></li>
+<li><a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener">MetingJS</a></li>
+</ul>
+</blockquote>
+<h2 id="社交信息">社交信息</h2>
+<figure class="highlight yaml"><figcaption><span>主题配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment"># 页脚社交信息</span></span><br><span class="line"><span class="attr">social:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-envelope</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">mailto:me@xaoxuu.com</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">icon:</span> <span class="string">fab</span> <span class="string">fa-github</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">https://github.com/xaoxuu</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-music</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">https://music.163.com/#/user/home?id=63035382</span></span><br></pre></td></tr></table></figure>
+<p>这些社交按钮也会同时出现在侧边栏头像下方，可以组件库的配置中设置不显示。</p>
+
+          
+        </div>
+        
+          <br>
+          
+
+
+  <section class='meta' id="footer-meta">
+    <div class='new-meta-box'>
+      
+        
+          
+  <div class='new-meta-item link-btns'>
+    
+      <a class='btn flat-box' href='https://github.com/xaoxuu/hexo-theme-material-x' target="_blank" rel="noopener" style='background: #508EF2'>
+        <i class='fas fa-code-branch' aria-hidden='true'></i>
+        <p>源码</p>
+      </a>
+    
+    
+      <a class='btn flat-box' href='https://github.com/xaoxuu/hexo-theme-material-x/issues/new?assignees=&labels=BUG&template=bug-report.md' target="_blank" rel="noopener" style='background: #FE5F58'>
+        <i class='fas fa-bug' aria-hidden='true'></i>
+        <p>BUG</p>
+      </a>
+    
+    
+      <a class='btn flat-box' href='https://github.com/xaoxuu/hexo-theme-material-x/issues/new?labels=疑问&template=question-report.md' target="_blank" rel="noopener" style='background: #FFBD2B'>
+        <i class='fas fa-question-circle' aria-hidden='true'></i>
+        <p>疑问</p>
+      </a>
+    
+    
+      <a class='btn flat-box' href='https://github.com/xaoxuu/hexo-theme-material-x/issues/new?assignees=&labels=建议&template=feature-request.md' target="_blank" rel="noopener" style='background: #3DC550'>
+        <i class='fas fa-lightbulb' aria-hidden='true'></i>
+        <p>建议</p>
+      </a>
+    
+    
+    
+  </div>
+
+
+        
+      
+        
+          
+
+        
+      
+    </div>
+  </section>
+
+
+        
+        
+      </section>
+    </article>
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <section class='widget  widget-blur text'>
+  <header class='[object Object]'>
+  <div><i class="fas fa-info-circle fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;关于文档</div>
+  
+</header>
+
+  <div class='content'>
+    
+      <p>
+        <p>由于文档经历大改，可能存在内容或链接过时等问题，我会尽快检查和更新，请见谅。</p>
+
+      </p>
+    
+  </div>
+</section>
+
+      
+    
+      
+    
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <section class='widget  widget-blur text'>
+  <header class='[object Object]'>
+  <div><i class="fas fa-star fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;点个赞吧</div>
+  
+</header>
+
+  <div class='content'>
+    
+      <p>
+        <p>您的赞对我来说很重要，如果您喜欢本主题，希望能够给下面的项目点个赞来支持一下作者。</p>
+
+      </p>
+    
+      <p>
+        <br>
+      </p>
+    
+      <p>
+        <p><a href="https://github.com/xaoxuu/ProHUD" target="_blank" rel="noopener"><img src="https://img.vim-cn.com/92/807ffd8bab40497971172514294020b6501074.png" height="50px"></a>  <a href="https://github.com/xaoxuu/ValueX" target="_blank" rel="noopener"><img src="https://img.vim-cn.com/d4/12de11f629bd1395a1a968eb23071d0fefa280.png" height="50px"></a>  <a href="https://github.com/xaoxuu/Inspire" target="_blank" rel="noopener"><img src="https://img.vim-cn.com/12/1dd7852a36433f9efe3e11a7772bddcf68be72.png" height="50px"></a></p>
+
+      </p>
+    
+  </div>
+</section>
+
+      
+    
+  
+
+
+
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
+
+
+
+
+</div>
+<aside class='l_side'>
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <section class='widget  widget-blur grid'>
+  <header class='[object Object]'>
+  <div><i class="fas fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;帮助索引</div>
+  
+</header>
+
+  <div class='content'>
+    <ul class="grid navgation">
+      
+        <li><a class="flat-box" title="/wiki/volantis/" href="/wiki/volantis/"
+          
+          
+          id="wikivolantis">
+          
+            <i class="fas fa-bullhorn fa-fw" aria-hidden="true"></i>
+          
+          近期消息
+        </a></li>
+      
+        <li><a class="flat-box" title="/wiki/volantis/archives/" href="/wiki/volantis/archives/"
+          
+          
+          id="wikivolantisarchives">
+          
+            <i class="fas fa-file-archive fa-fw" aria-hidden="true"></i>
+          
+          消息归档
+        </a></li>
+      
+        <li><a class="flat-box" title="/wiki/volantis/faqs" href="/wiki/volantis/faqs"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_self"
+          
+          id="wikivolantisfaqs">
+          
+            <i class="fas fa-question-circle fa-fw" aria-hidden="true"></i>
+          
+          常见问题
+        </a></li>
+      
+        <li><a class="flat-box" title="https://github.com/xaoxuu/hexo-theme-material-x/releases/" href="https://github.com/xaoxuu/hexo-theme-material-x/releases/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:github.comxaoxuuhexo-theme-material-xreleases">
+          
+            <i class="fas fa-clipboard-list fa-fw" aria-hidden="true"></i>
+          
+          更新日志
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+          
+  <section class='widget  widget-blur toc-wrapper'>
+    <header class='[object Object]'>
+  <div><i class="fas fa-list fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;本文目录</div>
+  
+    <!-- <div class='wrapper'><a class="s-toc rightBtn" rel="external nofollow noopener noreferrer" href="javascript:void(0)"><i class="fas fa-thumbtack fa-fw"></i></a></div> -->
+  
+</header>
+
+    <div class='content'>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#设置幻灯片背景"><span class="toc-text">设置幻灯片背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#设置封面"><span class="toc-text">设置封面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#设置导航栏"><span class="toc-text">设置导航栏</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#毛玻璃与卡片阴影"><span class="toc-text">毛玻璃与卡片阴影</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模块化布局"><span class="toc-text">模块化布局</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Meta库"><span class="toc-text">Meta库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#组件库"><span class="toc-text">组件库</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#blogger"><span class="toc-text">blogger</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#toc"><span class="toc-text">toc</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#category"><span class="toc-text">category</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#tagcloud"><span class="toc-text">tagcloud</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#related-posts"><span class="toc-text">related_posts</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#copyright"><span class="toc-text">copyright</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#donate"><span class="toc-text">donate</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#text"><span class="toc-text">text</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#grid"><span class="toc-text">grid</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#list"><span class="toc-text">list</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#APlayer播放器"><span class="toc-text">APlayer播放器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#社交信息"><span class="toc-text">社交信息</span></a></li></ol>
+    </div>
+  </section>
+
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+  
+</aside>
+
+<footer class="clearfix">
+  <br><br>
+  
+    <div class="social-wrapper">
+      
+        
+          <a href="/wiki/volantis/atom.xml"
+            class="social fas fa-rss flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="mailto:me@xaoxuu.com"
+            class="social fas fa-envelope flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://github.com/xaoxuu"
+            class="social fab fa-github flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://music.163.com/#/user/home?id=63035382"
+            class="social fas fa-headphones-alt flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+    </div>
+  
+  
+  <br>
+  <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+</div>
+  <div>
+    本站使用
+    <a href="https://xaoxuu.com/wiki/material-x/" target="_blank" class="codename">Volantis</a>
+    作为主题
+    
+      ，
+      总访问量为
+      <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
+      次
+    
+    。
+  </div>
+  
+    <div class='copyright'>
+    <p><a href="https://xaoxuu.com">Copyright © 2017-2020 Mr. X</a></p>
+
+    </div>
+  
+</footer>
+<script>setLoadingBarProgress(80);</script>
+
+
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/wiki/volantis/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      const $reveal = $('.reveal');
+      if ($reveal.length === 0) return;
+      const sr = ScrollReveal({ distance: 0 });
+      sr.reveal('.reveal');
+    });
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+  
+  
+    
+      
+<script src="/wiki/volantis/js/backstretch.min.js"></script>
+
+    
+    <script type="text/javascript">
+      $(function(){
+        if ('') {
+          $('').backstretch(
+          ["https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg"],
+          {
+            duration: "6000",
+            fade: "2500"
+          });
+        } else {
+          $.backstretch(
+          ["https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg"],
+          {
+            duration: "6000",
+            fade: "2500"
+          });
+        }
+      });
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="/wiki/volantis/js/app.js"></script>
+
+
+
+  
+<script src="/wiki/volantis/js/search.js"></script>
+
+
+
+  
+    
+<script src="/wiki/volantis/js/commentTyping.js"></script>
+
+  
+
+
+
+
+
+<!-- 复制 -->
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  let COPY_SUCCESS = "复制成功";
+  let COPY_FAILURE = "复制失败";
+  /*页面载入完成后，创建复制按钮*/
+  !function (e, t, a) {
+    /* code */
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+
+      clipboard.on('success', function(e) {
+        //您可以加入成功提示
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+        success_prompt(COPY_SUCCESS);
+        e.clearSelection();
+      });
+      clipboard.on('error', function(e) {
+        //您可以加入失败提示
+        console.error('Action:', e.action);
+        console.error('Trigger:', e.trigger);
+        fail_prompt(COPY_FAILURE);
+      });
+    }
+    initCopyCode();
+
+  }(window, document);
+
+  /**
+   * 弹出式提示框，默认1.5秒自动消失
+   * @param message 提示信息
+   * @param style 提示样式，有alert-success、alert-danger、alert-warning、alert-info
+   * @param time 消失时间
+   */
+  var prompt = function (message, style, time)
+  {
+      style = (style === undefined) ? 'alert-success' : style;
+      time = (time === undefined) ? 1500 : time*1000;
+      $('<div>')
+          .appendTo('body')
+          .addClass('alert ' + style)
+          .html(message)
+          .show()
+          .delay(time)
+          .fadeOut();
+  };
+
+  // 成功提示
+  var success_prompt = function(message, time)
+  {
+      prompt(message, 'alert-success', time);
+  };
+
+  // 失败提示
+  var fail_prompt = function(message, time)
+  {
+      prompt(message, 'alert-danger', time);
+  };
+
+  // 提醒
+  var warning_prompt = function(message, time)
+  {
+      prompt(message, 'alert-warning', time);
+  };
+
+  // 信息提示
+  var info_prompt = function(message, time)
+  {
+      prompt(message, 'alert-info', time);
+  };
+
+</script>
+
+
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  let LAZY_LOAD_IMAGE = "";
+  $(".article-entry").find("fancybox").find("img").each(function () {
+      var element = document.createElement("a");
+      $(element).attr("data-fancybox", "gallery");
+      $(element).attr("href", $(this).attr("src"));
+      /* 图片采用懒加载处理时,
+       * 一般图片标签内会有个属性名来存放图片的真实地址，比如 data-original,
+       * 那么此处将原本的属性名src替换为对应属性名data-original,
+       * 修改如下
+       */
+       if (LAZY_LOAD_IMAGE) {
+         $(element).attr("href", $(this).attr("data-original"));
+       }
+      $(this).wrap(element);
+  });
+</script>
+
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>

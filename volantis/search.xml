@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>主题更名为「Volantis」</title>
+      <link href="/wiki/volantis/2020-02-22/"/>
+      <url>/wiki/volantis/2020-02-22/</url>
+      
+        <content type="html"><![CDATA[<p>主题最初由 Material-Flow 改编，现已完全没有材质化设计的影子了。风格偏向简约风技术类博客，最大的特点是自由。更名为「Volantis」，取自权力的游戏地名。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>主题文档网页更新并开源</title>
+      <link href="/wiki/volantis/2020-02-21/"/>
+      <url>/wiki/volantis/2020-02-21/</url>
+      
+        <content type="html"><![CDATA[<p>主题经过几年迭代，现已高度模块化和可定制化，功能相对完善，适合用作文档。原来的<a href="https://github.com/xaoxuu/hexo-theme-vuex" target="_blank" rel="noopener">文档主题</a>将不再维护和更新。</p><p>现在使用的文档页面将于不久后开源。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>已关闭评论区</title>
+      <link href="/wiki/volantis/2020-02-20/"/>
+      <url>/wiki/volantis/2020-02-20/</url>
+      
+        <content type="html"><![CDATA[<h4 id="使用-GitHub-Issue">使用 GitHub Issue</h4><p>由于Valine匿名评论不适合追踪和解决问题，因此决定暂时关闭评论区。</p><p>为了精准高效解决问题，请前往[<strong><a href="https://github.com/xaoxuu/hexo-theme-material-x/issues/" target="_blank" rel="noopener">GitHub Issue</a></strong>]。</p><h4 id="遇到问题怎么办">遇到问题怎么办</h4><ol><li>确定已经查阅文档找不到相关内容。</li><li>点击左侧【常见问题】，查看是否有解决方案。</li><li>访问在线示例，查看是否具有相同第问题。<br>3.1. 如果在线示例表示正常，则说明自己配置有误，检查开发环境、主题配置是否正确。如果检查不出问题，提Issue询问。<br>3.2. 如果在线示例也存在相同问题，则说明存在BUG，请提Issue反馈。</li><li>如果在线示例没有相关内容，下载示例博客源码，修改运行本地预览，进行第3步判断操作。</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>版本命名规范化</title>
+      <link href="/wiki/volantis/2020-02-19/"/>
+      <url>/wiki/volantis/2020-02-19/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p><strong>主版本号.子版本号.修订版本号</strong></p></blockquote><p>主题从2017年至今，已经经历了相当多的大版本迭代和数不尽的小版本更新，但是版本号的更新一直没有遵循规范。从下次更新开始，将遵循下述的规范：</p><ul><li><strong>主版本号</strong>： 较大改动、框架调整或重构</li><li><strong>子版本号</strong>： 较小或局部的功能性更新</li><li><strong>修订版本号</strong>： 修复BUG或无关紧要的细节调整</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>心率测量工具限免活动</title>
+      <link href="/wiki/volantis/2020-02-18/"/>
+      <url>/wiki/volantis/2020-02-18/</url>
+      
+        <content type="html"><![CDATA[<fancybox><img src='https://img.vim-cn.com/a0/7dd5e3b3eb5a1152c504e3d69f883eba249e4c.jpg'>&nbsp;<img src='https://img.vim-cn.com/aa/e3c29fe028f73964455feedfa87faa86ec9a1d.jpg'>&nbsp;<img src='https://img.vim-cn.com/26/a73995e39fa4297574bd23222efc508fbab09b.jpg'>&nbsp;<img src='https://img.vim-cn.com/48/ef8676de6cb3e45ca8d72bf607b53118f6897f.jpg'>&nbsp;<img src='https://img.vim-cn.com/72/7ccdd4c948a7c311dab51d164a466ed6dc64b4.jpg'>&nbsp;<img src='https://img.vim-cn.com/a0/bf6ff6733807d980b4c274060571e3bbd24b74.jpg'></fancybox><div class="large p"><p>心率管家App（仅iOS端），专业版<b><red>2月24日～3月1日</red></b>限免，欢迎下载体验。</p></div><p>如果您看到的时候已经过了限免期，可以先下载免费版使用。为了吸引app推荐类网站的爬虫进行推荐，专业版的价格通常在1元到68元之间浮动变化的。</p><blockquote><p>App Store 链接： <strong><a href="https://apps.apple.com/cn/app/heart-mate-lite-hrm-utility/id1475747930?ls=1" target="_blank" rel="noopener">免费版</a></strong> | <strong><a href="https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1" target="_blank" rel="noopener">专业版</a></strong></p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>

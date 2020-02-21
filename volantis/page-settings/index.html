@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme='Volantis' version='1.5' docs='https://xaoxuu.com/wiki/material-x/'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <title>页面配置 | Volantis</title>
+  
+  
+
+  
+  <link rel="alternate" href="/wiki/volantis/atom.xml" title="Volantis">
+  
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- meta -->
+  
+  
+  <meta name='theme-color' content='#FFFFFF'>
+  <meta name='msapplication-TileColor' content='#1BC3FB'>
+  <meta name='msapplication-config' content='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/browserconfig.xml'>
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css">
+  
+  
+  <link rel='shortcut icon' type='image/x-icon' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/favicon.ico'>
+  <link rel='icon' type='image/x-icon' sizes='32x32' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/favicon-32x32.png'>
+  <link rel='apple-touch-icon' type='image/png' sizes='180x180' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/apple-touch-icon.png'>
+  <link rel='mask-icon' color='#1BC3FB' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/safari-pinned-tab.svg'>
+  <link rel='manifest' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-favicon@19.9.6/site.webmanifest'>
+  
+
+  
+
+  
+
+  
+    
+<link rel="stylesheet" href="/wiki/volantis/style.css">
+
+  
+
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+
+  
+  
+</head>
+
+<body>
+  
+  
+  <header class="l_header nav-blur">
+  <div id="loading-bar-wrapper">
+    <div id="loading-bar"></div>
+  </div>
+
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+      <a class="logo flat-box" target="_self" href='/wiki/volantis/' >
+        
+          
+          
+            VOLANTIS
+          
+        
+      </a>
+			<div class='menu navgation'>
+				<ul class='h-list'>
+          
+  					
+  						<li>
+								<a class="nav flat-box" href="/wiki/volantis/start"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="wikivolantisstart">
+									<i class='fas fa-download fa-fw'></i>&nbsp;开始使用
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/wiki/volantis/site-settings"
+                  
+                  
+                    target="_self"
+                  
+                  id="wikivolantissite-settings">
+									<i class='fas fa-cogs fa-fw'></i>&nbsp;站点配置
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/wiki/volantis/theme-settings"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="wikivolantistheme-settings">
+									<i class='fas fa-palette fa-fw'></i>&nbsp;主题配置
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/wiki/volantis/page-settings"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="wikivolantispage-settings">
+									<i class='fas fa-file-alt fa-fw'></i>&nbsp;页面配置
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/wiki/volantis/advanced-settings"
+                  
+                    rel="nofollow"
+                  
+                  
+                    target="_self"
+                  
+                  id="wikivolantisadvanced-settings">
+									<i class='fas fa-flask fa-fw'></i>&nbsp;进阶设定
+								</a>
+							</li>
+      			
+      		
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="搜索文档" />
+        </form>
+      </div>
+
+			<ul class='switcher h-list'>
+				
+					<li class='s-search'><a class="fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li class='s-menu'><a class="fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a></li>
+			</ul>
+		</div>
+
+		<div class='nav-sub container container--flex'>
+			<a class="logo flat-box"></a>
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a class="flat-btn fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li class='s-toc'><a class="flat-btn fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+			</ul>
+		</div>
+	</div>
+</header>
+	<aside class="menu-phone white-box  widget-blur">
+    <header>
+		<nav class="menu navgation">
+      <ul>
+        
+          
+            <li>
+							<a class="nav flat-box" href="/wiki/volantis/"
+                
+                
+                id="wikivolantis">
+								<i class='fas fa-clock fa-fw'></i>&nbsp;近期文章
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/wiki/volantis/about/"
+                
+                  rel="nofollow"
+                
+                
+                id="wikivolantisabout">
+								<i class='fas fa-info-circle fa-fw'></i>&nbsp;关于小站
+							</a>
+            </li>
+          
+       
+      </ul>
+		</nav>
+    </header>
+	</aside>
+<script>setLoadingBarProgress(40);</script>
+
+
+
+  <div class="l_body nocover">
+    <div class='body-wrapper'>
+      <div class='l_main'>
+  
+
+  
+    <article id="page" class="post white-box  body-blur article-type-page" itemscope itemprop="blogPost">
+      
+
+
+  <section class='meta'>
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  
+    <h1 class="title">
+      <a href="/wiki/volantis/page-settings/index.html">
+        页面配置
+      </a>
+    </h1>
+  
+
+
+      
+      <div class='new-meta-box'>
+        
+          
+        
+          
+            
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-edit" aria-hidden="true"></i>
+    <p>发布于：2020年2月22日</p>
+  </a>
+</div>
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-02-22T01:15:15+08:00">
+  <a class='notlink'>
+    <i class="fas fa-save" aria-hidden="true"></i>
+    <p>更新于：2020年2月22日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+      <section class="article typo">
+        <div class="article-entry" itemprop="articleBody">
+          
+          <p>如无特殊说明，本页面的配置信息写在<red><strong>页面</strong></red>的 <code>front-matter</code> 文件中。</p>
+<h2 id="布局模板">布局模板</h2>
+<table>
+<thead>
+<tr>
+<th>取值</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td>独立页面</td>
+</tr>
+<tr>
+<td>post</td>
+<td>文章页面</td>
+</tr>
+<tr>
+<td>category</td>
+<td>分类页面</td>
+</tr>
+<tr>
+<td>tag</td>
+<td>标签页面</td>
+</tr>
+<tr>
+<td>links</td>
+<td>友链页面</td>
+</tr>
+<tr>
+<td>list</td>
+<td>列表页面（类似于首页的文章列表）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Front-matter">Front-matter</h2>
+<p>Front-matter 是文件最上方以 <code>---</code> 分隔的区域，用于指定个别文件的变量。【详见官方文档】</p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>含义</th>
+<th>值类型</th>
+<th>默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>layout</td>
+<td>布局模版</td>
+<td>String</td>
+<td>-</td>
+</tr>
+<tr>
+<td>title</td>
+<td>标题</td>
+<td>String</td>
+<td>-</td>
+</tr>
+<tr>
+<td>date</td>
+<td>创建时间</td>
+<td>Date</td>
+<td>文件创建时间</td>
+</tr>
+<tr>
+<td>updated</td>
+<td>更新日期</td>
+<td>Date</td>
+<td>文件修改时间</td>
+</tr>
+<tr>
+<td>permalink</td>
+<td>覆盖文章网址</td>
+<td>String</td>
+<td>-</td>
+</tr>
+<tr>
+<td>music</td>
+<td>内部音乐控件</td>
+<td>详见【music】</td>
+<td>-</td>
+</tr>
+<tr>
+<td>keywords</td>
+<td>页面关键词</td>
+<td>String</td>
+<td>-</td>
+</tr>
+<tr>
+<td>description</td>
+<td>页面描述、摘要</td>
+<td>String</td>
+<td>-</td>
+</tr>
+<tr>
+<td>cover</td>
+<td>是否显示封面</td>
+<td>Bool</td>
+<td>true</td>
+</tr>
+<tr>
+<td>meta</td>
+<td>文章或页面的meta信息</td>
+<td>Bool, Array</td>
+<td>theme.layout.*.meta</td>
+</tr>
+<tr>
+<td>sidebar</td>
+<td>页面侧边栏</td>
+<td>Bool, Array</td>
+<td>theme.layout.*.sidebar</td>
+</tr>
+<tr>
+<td>body</td>
+<td>页面主体元素</td>
+<td>Array</td>
+<td>theme.layout.on_page.body</td>
+</tr>
+</tbody>
+</table>
+<p><strong>layout=post时特有的字段：</strong></p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>含义</th>
+<th>值类型</th>
+<th>默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>author</td>
+<td>文章作者</td>
+<td>-</td>
+<td>config.author</td>
+</tr>
+<tr>
+<td>categories</td>
+<td>分类</td>
+<td>String, Array</td>
+<td>-</td>
+</tr>
+<tr>
+<td>tags</td>
+<td>标签</td>
+<td>String, Array</td>
+<td>-</td>
+</tr>
+<tr>
+<td>toc</td>
+<td>是否生成目录</td>
+<td>Bool</td>
+<td>true</td>
+</tr>
+<tr>
+<td>mathjax</td>
+<td>是否渲染公式</td>
+<td>Bool, String</td>
+<td>false</td>
+</tr>
+<tr>
+<td>top</td>
+<td>是否置顶</td>
+<td>Bool</td>
+<td>false</td>
+</tr>
+<tr>
+<td>thumbnail</td>
+<td>缩略图</td>
+<td>String</td>
+<td>false</td>
+</tr>
+<tr>
+<td>icons</td>
+<td>图标</td>
+<td>Array</td>
+<td>[]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>author</strong></p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>含义</th>
+<th>值类型</th>
+<th>默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>作者名</td>
+<td>String</td>
+<td>config.author</td>
+</tr>
+<tr>
+<td>avatar</td>
+<td>头像</td>
+<td>String</td>
+<td>config.avatar</td>
+</tr>
+<tr>
+<td>url</td>
+<td>链接</td>
+<td>String</td>
+<td>config.url</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>更多请见Hexo官方文档：<a href="https://hexo.io/zh-cn/docs/front-matter" target="_blank" rel="noopener">front-matter</a></p>
+</blockquote>
+<h2 id="独立页面">独立页面</h2>
+<h3 id="归档页面">归档页面</h3>
+<p>归档页面是自动生成的，并且初始化的时候已经生成，路径如下：</p>
+<figure class="highlight yaml"><figcaption><span>站点配置文件</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment"># Directory</span></span><br><span class="line"><span class="attr">archive_dir:</span> <span class="string">blog/archives</span></span><br></pre></td></tr></table></figure>
+<h3 id="关于页面">关于页面</h3>
+<figure class="highlight yaml"><figcaption><span>手动创建文件：source/about/index.md</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">page</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">关于</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line">  <span class="attr">header:</span> <span class="string">[]</span></span><br><span class="line">  <span class="attr">footer:</span> <span class="string">[]</span></span><br><span class="line"><span class="attr">sidebar:</span> <span class="string">[]</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line">  <span class="attr">placeholder:</span> <span class="string">有什么想对我说的呢？</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"></span><br><span class="line"><span class="string">下面写关于自己的内容</span></span><br></pre></td></tr></table></figure>
+<h3 id="分类页面">分类页面</h3>
+<figure class="highlight yaml"><figcaption><span>手动创建文件：source/categories/index.md</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">category</span></span><br><span class="line"><span class="attr">index:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">所有分类</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<h3 id="标签页面">标签页面</h3>
+<figure class="highlight yaml"><figcaption><span>手动创建文件：source/tags/index.md</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">tag</span></span><br><span class="line"><span class="attr">index:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">所有标签</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<h3 id="列表页面">列表页面</h3>
+<figure class="highlight yaml"><figcaption><span>手动创建文件：source/mylist/index.md</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">list</span></span><br><span class="line"><span class="attr">group:</span> <span class="string">mylist</span></span><br><span class="line"><span class="attr">index:</span> <span class="literal">true</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>结果就是筛选出所有文章中 <code>layout: post</code> 且 <code>group: mylist</code> 的文章。</p>
+<blockquote>
+<p>上述中的 <code>mylist</code> 只是示例，你可以用任何名字作为一个列表。</p>
+</blockquote>
+<h3 id="友链页面">友链页面</h3>
+<figure class="highlight yaml"><figcaption><span>手动创建文件：source/friends/index.md</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">links</span>     <span class="comment"># 必须</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">我的朋友们</span>   <span class="comment"># 可选，这是友链页的标题</span></span><br><span class="line"><span class="attr">links:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">group:</span> <span class="string">技术大佬</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-user-tie</span></span><br><span class="line">    <span class="attr">items:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span>     <span class="comment"># 博客名</span></span><br><span class="line">      <span class="attr">avatar:</span>   <span class="comment"># 头像链接</span></span><br><span class="line">      <span class="attr">url:</span>      <span class="comment"># 博客链接</span></span><br><span class="line">      <span class="attr">backgroundColor:</span> <span class="string">'#3E74C9'</span> <span class="comment"># 卡片背景颜色</span></span><br><span class="line">      <span class="attr">textColor:</span> <span class="string">'#fff'</span>  <span class="comment"># 卡片文字颜色</span></span><br><span class="line">      <span class="attr">tags:</span>     <span class="comment"># 标签</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">标签1</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">标签2</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">group:</span> <span class="string">分组2</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-user-tie</span></span><br><span class="line">    <span class="attr">items:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span>     <span class="comment"># 博客名</span></span><br><span class="line">      <span class="attr">avatar:</span>   <span class="comment"># 头像链接</span></span><br><span class="line">      <span class="attr">url:</span>      <span class="comment"># 博客链接</span></span><br><span class="line">      <span class="attr">backgroundColor:</span> <span class="string">'#3E74C9'</span> <span class="comment"># 卡片背景颜色</span></span><br><span class="line">      <span class="attr">textColor:</span> <span class="string">'#fff'</span>  <span class="comment"># 卡片文字颜色</span></span><br><span class="line">      <span class="attr">tags:</span>     <span class="comment"># 标签</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">标签1</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">标签2</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"></span><br><span class="line"><span class="string">这里可以写友链页面下方的文字备注，例如自己的友链规范、示例等。</span></span><br></pre></td></tr></table></figure>
+<h3 id="404页面">404页面</h3>
+<figure class="highlight yaml"><figcaption><span>手动创建文件：source/404.md</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">page</span></span><br><span class="line"><span class="attr">title:</span> <span class="number">404</span> <span class="string">Not</span> <span class="string">Found</span></span><br><span class="line"><span class="attr">body:</span> <span class="string">[article,</span> <span class="string">comments]</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line">  <span class="attr">header:</span> <span class="string">[]</span></span><br><span class="line">  <span class="attr">footer:</span> <span class="string">[]</span></span><br><span class="line"><span class="attr">sidebar:</span> <span class="string">[]</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">/404.html</span></span><br><span class="line">  <span class="attr">placeholder:</span> <span class="string">请留言告诉我您要访问哪个页面找不到了</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"></span><br><span class="line"><span class="string">&lt;center&gt;</span></span><br><span class="line"><span class="string">&lt;h1</span> <span class="string">style='border-bottom:</span> <span class="string">none;font-size:64px;margin-top:.5em'&gt;404&lt;/h1&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="string">&lt;b&gt;很抱歉，您访问的页面不存在&lt;/b&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="string">可能是输入地址有误或该地址已被删除</span></span><br><span class="line"></span><br><span class="line"><span class="string">&lt;/center&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="页面元素排列">页面元素排列</h2>
+<p>默认是文章+评论：</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">body:</span> <span class="string">[article,</span> <span class="string">comments]</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>如果你想把相关文章卡片显示在评论前，可以这样写：</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">body:</span> <span class="string">[article,</span> <span class="string">related_posts,</span> <span class="string">comments]</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>如果想全局修改，在主题配置文件中的<code>layout.on_page.body</code>中设置。</p>
+<h2 id="文章属性">文章属性</h2>
+<h3 id="文章置顶">文章置顶</h3>
+<p>在Front-matter中设置以下值：</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">top:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p>如果想自定义置顶标签的文字，可以直接设置为字符串，例如：</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">top:</span> <span class="string">近期更新</span></span><br></pre></td></tr></table></figure>
+<h3 id="文章分类">文章分类</h3>
+<p>多个分类有两种关系，一种是层级（等同于文件夹），一种是并列（等同于标签）。</p>
+<p>多级分类：</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">[分类A,</span> <span class="string">分类B]</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">categories:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">分类A</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">分类B</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>并列分类</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">categories:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">[分类A]</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">[分类B]</span></span><br></pre></td></tr></table></figure>
+<p>多级+并列分类</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">categories:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">[分类A,</span> <span class="string">分类B]</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">[分类C,</span> <span class="string">分类D]</span></span><br></pre></td></tr></table></figure>
+<h3 id="文章摘要">文章摘要</h3>
+<p>在文章中插入<code>&lt;!-- more --&gt;</code>，前面的部分即为摘要。</p>
+<figure class="highlight yml"><figcaption><span>某篇文章源码</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2020</span><span class="number">-02</span><span class="number">-21</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"></span><br><span class="line"><span class="string">这是摘要</span></span><br><span class="line"></span><br><span class="line"><span class="string">&lt;!--</span> <span class="string">more</span> <span class="string">--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="string">这是正文</span></span><br></pre></td></tr></table></figure>
+<div class="warning">
+<p><strong>注意</strong>： <code>&lt;!-- more --&gt;</code> 前后一定要有空行，不然可能导致显示错位。</p>
+</div>
+<h3 id="是否开启渲染MathJax">是否开启渲染MathJax</h3>
+<table>
+<thead>
+<tr>
+<th>取值</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>false</td>
+<td>不渲染，默认值</td>
+</tr>
+<tr>
+<td>true</td>
+<td>渲染</td>
+</tr>
+<tr>
+<td>internal</td>
+<td>只在文章内部渲染，文章列表中不渲染</td>
+</tr>
+</tbody>
+</table>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">mathjax:</span> <span class="literal">true</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>如果公式仍无法正确渲染可以阅读@MicDZ大神的这篇文章：<a href="https://www.micdz.cn/article/katex-on-material-x/" target="_blank" rel="noopener">《在material-x上使用KaTeX》</a>。</p>
+</blockquote>
+<h3 id="设置文章作者">设置文章作者</h3>
+<p>由于支持多作者共同维护一个博客，所以可以设置单独一篇文章的作者：</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">author:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">作者</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://img.vim-cn.com/a1/d53c11fb5d4fd69529bc805d385fe818feb3f6.png</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://baidu.com</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<h2 id="显示迷你音乐播放器">显示迷你音乐播放器</h2>
+<p>标题右边显示迷你音乐播放器，支持的字段有：<code>server</code>、<code>type</code>、<code>id</code>。</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">music:</span></span><br><span class="line">  <span class="attr">server:</span> <span class="string">netease</span>   <span class="comment"># netease, tencent, kugou, xiami, baidu</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">song</span>        <span class="comment"># song, playlist, album, search, artist</span></span><br><span class="line">  <span class="attr">id:</span> <span class="number">26664345</span>      <span class="comment"># song id / playlist id / album id / search keyword</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>实际效果见： <a href="https://xaoxuu.com/friends/">https://xaoxuu.com/friends/</a><br>
+APlayer配置： <a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener">https://github.com/metowolf/MetingJS</a></p>
+</blockquote>
+<h2 id="显示meta标签">显示meta标签</h2>
+<p>文章顶部和底部的日期、分类、更新日期、标签、分享等属于meta标签。<br>
+顶部的为<code>header</code>，底部的为<code>footer</code>，取值见主题配置文件中的meta库。</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="comment"># 默认的meta信息，文章中没有配置则按照这里的配置来显示，设置为false则不显示</span></span><br><span class="line"><span class="comment"># 其中，title只在header中有效，music和thumbnail无需在这里设置，文章中有则显示</span></span><br><span class="line"><span class="comment"># 如果tags放置在meta.header中，那么在post列表中不显示（因为卡片下方已经有了）</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line">  <span class="attr">header:</span> <span class="string">[title,</span> <span class="string">author,</span> <span class="string">date,</span> <span class="string">category,</span> <span class="string">counter,</span> <span class="string">top]</span></span><br><span class="line">  <span class="attr">footer:</span> <span class="string">[updated,</span> <span class="string">tags,</span> <span class="string">share]</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>像404、关于页面就可以完全隐藏：</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line">  <span class="attr">header:</span> <span class="string">[]</span></span><br><span class="line">  <span class="attr">footer:</span> <span class="string">[]</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<h2 id="标题右边显示缩略图">标题右边显示缩略图</h2>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">thumbnail:</span> <span class="string">https://img.vim-cn.com/17/0c7b02722686d1527a1df807dae0794d995860.png</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>缩略图仅在文章列表和文章页面显示，不会在归档页面显示。</p>
+<h2 id="标题右边显示图标">标题右边显示图标</h2>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">icons:</span> <span class="string">[fas</span> <span class="string">fa-fire</span> <span class="string">red,</span> <span class="string">fas</span> <span class="string">fa-star</span> <span class="string">green]</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>图标仅在归档页面中显示，可以用来标注热门文章。</p>
+<div class="info">
+<p>可以通过 red/blue/green/yellow/orange/theme/accent 来设置图标的颜色<br>
+theme为主题色: @theme_main<br>
+accent为链接高亮颜色: @color_text_highlight</p>
+</div>
+<h2 id="meta区显示外链按钮">meta区显示外链按钮</h2>
+<p>例如当前文档页面的设置：</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line">  <span class="attr">footer:</span> <span class="string">[links]</span></span><br><span class="line"><span class="attr">links:</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/xaoxuu/hexo-theme-material-x</span></span><br><span class="line">  <span class="attr">bug:</span> <span class="string">https://github.com/xaoxuu/hexo-theme-material-x/issues/new?assignees=&amp;labels=BUG&amp;template=bug-report.md</span></span><br><span class="line">  <span class="attr">doubt:</span> <span class="string">https://github.com/xaoxuu/hexo-theme-material-x/issues/new?labels=疑问&amp;template=question-report.md</span></span><br><span class="line">  <span class="attr">idea:</span> <span class="string">https://github.com/xaoxuu/hexo-theme-material-x/issues/new?assignees=&amp;labels=建议&amp;template=feature-request.md</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>按钮的颜色、图标、标题在主题配置文件中设置。</p>
+<h2 id="是否要显示封面">是否要显示封面</h2>
+<p>如果某个页面不需要封面，可以这样写：</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">cover:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<h2 id="引入外部文章">引入外部文章</h2>
+<p>利用 <code>permalink</code>，搭配自定义的文章作者信息，你可以在文章列表中显示外部文章或者网址，例如：</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">layout:</span>     <span class="string">post</span></span><br><span class="line"><span class="attr">date:</span>       <span class="number">2017</span><span class="number">-07</span><span class="number">-05</span></span><br><span class="line"><span class="attr">title:</span>      <span class="string">[转]如何搭建基于Hexo的独立博客</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">[Dev,</span> <span class="string">Hexo]</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">Hexo</span></span><br><span class="line"><span class="attr">author:</span></span><br><span class="line">  <span class="attr">name:</span> <span class="string">xaoxuu</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://xaoxuu.com</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">https://xaoxuu.com/blog/2017-07-05-hexo-blog/</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"></span><br><span class="line"><span class="string">![](https://img.vim-cn.com/d9/a9af7dc49fc0af8ca3e6dd2450a2f7095a87db.png)</span></span><br></pre></td></tr></table></figure>
+<h2 id="显示侧边栏">显示侧边栏</h2>
+<p>通过自由设置边栏卡片来删减对应页面的冗余信息，提高有价值的信息在页面中的权重。</p>
+<p>如果某个页面不需要侧边栏，可以这样写：</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">sidebar:</span> <span class="string">[]</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>某个页面想指定显示某几个侧边栏，就这样写:</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">sidebar:</span> <span class="string">[grid,</span> <span class="string">toc,</span> <span class="string">tags]</span> <span class="comment"># 放置任何你想要显示的侧边栏部件</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<h2 id="关闭评论">关闭评论</h2>
+<p>可以</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>也可以</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">body:</span> <span class="string">[article]</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<h2 id="只显示留言板">只显示留言板</h2>
+<p>如果你想创建一个只有留言板的页面</p>
+<figure class="highlight yaml"><figcaption><span>front-matter</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">body:</span> <span class="string">[comments]</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
+          
+        </div>
+        
+          <br>
+          
+
+
+  <section class='meta' id="footer-meta">
+    <div class='new-meta-box'>
+      
+        
+          
+  <div class='new-meta-item link-btns'>
+    
+      <a class='btn flat-box' href='https://github.com/xaoxuu/hexo-theme-material-x' target="_blank" rel="noopener" style='background: #508EF2'>
+        <i class='fas fa-code-branch' aria-hidden='true'></i>
+        <p>源码</p>
+      </a>
+    
+    
+      <a class='btn flat-box' href='https://github.com/xaoxuu/hexo-theme-material-x/issues/new?assignees=&labels=BUG&template=bug-report.md' target="_blank" rel="noopener" style='background: #FE5F58'>
+        <i class='fas fa-bug' aria-hidden='true'></i>
+        <p>BUG</p>
+      </a>
+    
+    
+      <a class='btn flat-box' href='https://github.com/xaoxuu/hexo-theme-material-x/issues/new?labels=疑问&template=question-report.md' target="_blank" rel="noopener" style='background: #FFBD2B'>
+        <i class='fas fa-question-circle' aria-hidden='true'></i>
+        <p>疑问</p>
+      </a>
+    
+    
+      <a class='btn flat-box' href='https://github.com/xaoxuu/hexo-theme-material-x/issues/new?assignees=&labels=建议&template=feature-request.md' target="_blank" rel="noopener" style='background: #3DC550'>
+        <i class='fas fa-lightbulb' aria-hidden='true'></i>
+        <p>建议</p>
+      </a>
+    
+    
+    
+  </div>
+
+
+        
+      
+        
+          
+
+        
+      
+    </div>
+  </section>
+
+
+        
+        
+      </section>
+    </article>
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <section class='widget  widget-blur text'>
+  <header class='[object Object]'>
+  <div><i class="fas fa-info-circle fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;关于文档</div>
+  
+</header>
+
+  <div class='content'>
+    
+      <p>
+        <p>由于文档经历大改，可能存在内容或链接过时等问题，我会尽快检查和更新，请见谅。</p>
+
+      </p>
+    
+  </div>
+</section>
+
+      
+    
+      
+    
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <section class='widget  widget-blur text'>
+  <header class='[object Object]'>
+  <div><i class="fas fa-star fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;点个赞吧</div>
+  
+</header>
+
+  <div class='content'>
+    
+      <p>
+        <p>您的赞对我来说很重要，如果您喜欢本主题，希望能够给下面的项目点个赞来支持一下作者。</p>
+
+      </p>
+    
+      <p>
+        <br>
+      </p>
+    
+      <p>
+        <p><a href="https://github.com/xaoxuu/ProHUD" target="_blank" rel="noopener"><img src="https://img.vim-cn.com/92/807ffd8bab40497971172514294020b6501074.png" height="50px"></a>  <a href="https://github.com/xaoxuu/ValueX" target="_blank" rel="noopener"><img src="https://img.vim-cn.com/d4/12de11f629bd1395a1a968eb23071d0fefa280.png" height="50px"></a>  <a href="https://github.com/xaoxuu/Inspire" target="_blank" rel="noopener"><img src="https://img.vim-cn.com/12/1dd7852a36433f9efe3e11a7772bddcf68be72.png" height="50px"></a></p>
+
+      </p>
+    
+  </div>
+</section>
+
+      
+    
+  
+
+
+
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
+
+
+
+
+</div>
+<aside class='l_side'>
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <section class='widget  widget-blur grid'>
+  <header class='[object Object]'>
+  <div><i class="fas fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;帮助索引</div>
+  
+</header>
+
+  <div class='content'>
+    <ul class="grid navgation">
+      
+        <li><a class="flat-box" title="/wiki/volantis/" href="/wiki/volantis/"
+          
+          
+          id="wikivolantis">
+          
+            <i class="fas fa-bullhorn fa-fw" aria-hidden="true"></i>
+          
+          近期消息
+        </a></li>
+      
+        <li><a class="flat-box" title="/wiki/volantis/archives/" href="/wiki/volantis/archives/"
+          
+          
+          id="wikivolantisarchives">
+          
+            <i class="fas fa-file-archive fa-fw" aria-hidden="true"></i>
+          
+          消息归档
+        </a></li>
+      
+        <li><a class="flat-box" title="/wiki/volantis/faqs" href="/wiki/volantis/faqs"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_self"
+          
+          id="wikivolantisfaqs">
+          
+            <i class="fas fa-question-circle fa-fw" aria-hidden="true"></i>
+          
+          常见问题
+        </a></li>
+      
+        <li><a class="flat-box" title="https://github.com/xaoxuu/hexo-theme-material-x/releases/" href="https://github.com/xaoxuu/hexo-theme-material-x/releases/"
+          
+            rel="external nofollow noopener noreferrer"
+          
+          
+            target="_blank"
+          
+          id="https:github.comxaoxuuhexo-theme-material-xreleases">
+          
+            <i class="fas fa-clipboard-list fa-fw" aria-hidden="true"></i>
+          
+          更新日志
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+          
+  <section class='widget  widget-blur toc-wrapper'>
+    <header class='[object Object]'>
+  <div><i class="fas fa-list fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;本文目录</div>
+  
+    <!-- <div class='wrapper'><a class="s-toc rightBtn" rel="external nofollow noopener noreferrer" href="javascript:void(0)"><i class="fas fa-thumbtack fa-fw"></i></a></div> -->
+  
+</header>
+
+    <div class='content'>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#布局模板"><span class="toc-text">布局模板</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Front-matter"><span class="toc-text">Front-matter</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#独立页面"><span class="toc-text">独立页面</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#归档页面"><span class="toc-text">归档页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#关于页面"><span class="toc-text">关于页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分类页面"><span class="toc-text">分类页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#标签页面"><span class="toc-text">标签页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#列表页面"><span class="toc-text">列表页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#友链页面"><span class="toc-text">友链页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#404页面"><span class="toc-text">404页面</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#页面元素排列"><span class="toc-text">页面元素排列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#文章属性"><span class="toc-text">文章属性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#文章置顶"><span class="toc-text">文章置顶</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#文章分类"><span class="toc-text">文章分类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#文章摘要"><span class="toc-text">文章摘要</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#是否开启渲染MathJax"><span class="toc-text">是否开启渲染MathJax</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置文章作者"><span class="toc-text">设置文章作者</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#显示迷你音乐播放器"><span class="toc-text">显示迷你音乐播放器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#显示meta标签"><span class="toc-text">显示meta标签</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#标题右边显示缩略图"><span class="toc-text">标题右边显示缩略图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#标题右边显示图标"><span class="toc-text">标题右边显示图标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#meta区显示外链按钮"><span class="toc-text">meta区显示外链按钮</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#是否要显示封面"><span class="toc-text">是否要显示封面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#引入外部文章"><span class="toc-text">引入外部文章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#显示侧边栏"><span class="toc-text">显示侧边栏</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关闭评论"><span class="toc-text">关闭评论</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#只显示留言板"><span class="toc-text">只显示留言板</span></a></li></ol>
+    </div>
+  </section>
+
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+  
+</aside>
+
+<footer class="clearfix">
+  <br><br>
+  
+    <div class="social-wrapper">
+      
+        
+          <a href="/wiki/volantis/atom.xml"
+            class="social fas fa-rss flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="mailto:me@xaoxuu.com"
+            class="social fas fa-envelope flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://github.com/xaoxuu"
+            class="social fab fa-github flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://music.163.com/#/user/home?id=63035382"
+            class="social fas fa-headphones-alt flat-btn"
+            target="_blank"
+            rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+    </div>
+  
+  
+  <br>
+  <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+</div>
+  <div>
+    本站使用
+    <a href="https://xaoxuu.com/wiki/material-x/" target="_blank" class="codename">Volantis</a>
+    作为主题
+    
+      ，
+      总访问量为
+      <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
+      次
+    
+    。
+  </div>
+  
+    <div class='copyright'>
+    <p><a href="https://xaoxuu.com">Copyright © 2017-2020 Mr. X</a></p>
+
+    </div>
+  
+</footer>
+<script>setLoadingBarProgress(80);</script>
+
+
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/wiki/volantis/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      const $reveal = $('.reveal');
+      if ($reveal.length === 0) return;
+      const sr = ScrollReveal({ distance: 0 });
+      sr.reveal('.reveal');
+    });
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+  
+  
+    
+      
+<script src="/wiki/volantis/js/backstretch.min.js"></script>
+
+    
+    <script type="text/javascript">
+      $(function(){
+        if ('') {
+          $('').backstretch(
+          ["https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg"],
+          {
+            duration: "6000",
+            fade: "2500"
+          });
+        } else {
+          $.backstretch(
+          ["https://i.loli.net/2020/02/08/HNuVoted2mUxILl.jpg"],
+          {
+            duration: "6000",
+            fade: "2500"
+          });
+        }
+      });
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="/wiki/volantis/js/app.js"></script>
+
+
+
+  
+<script src="/wiki/volantis/js/search.js"></script>
+
+
+
+  
+    
+<script src="/wiki/volantis/js/commentTyping.js"></script>
+
+  
+
+
+
+
+
+<!-- 复制 -->
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  let COPY_SUCCESS = "复制成功";
+  let COPY_FAILURE = "复制失败";
+  /*页面载入完成后，创建复制按钮*/
+  !function (e, t, a) {
+    /* code */
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+
+      clipboard.on('success', function(e) {
+        //您可以加入成功提示
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+        success_prompt(COPY_SUCCESS);
+        e.clearSelection();
+      });
+      clipboard.on('error', function(e) {
+        //您可以加入失败提示
+        console.error('Action:', e.action);
+        console.error('Trigger:', e.trigger);
+        fail_prompt(COPY_FAILURE);
+      });
+    }
+    initCopyCode();
+
+  }(window, document);
+
+  /**
+   * 弹出式提示框，默认1.5秒自动消失
+   * @param message 提示信息
+   * @param style 提示样式，有alert-success、alert-danger、alert-warning、alert-info
+   * @param time 消失时间
+   */
+  var prompt = function (message, style, time)
+  {
+      style = (style === undefined) ? 'alert-success' : style;
+      time = (time === undefined) ? 1500 : time*1000;
+      $('<div>')
+          .appendTo('body')
+          .addClass('alert ' + style)
+          .html(message)
+          .show()
+          .delay(time)
+          .fadeOut();
+  };
+
+  // 成功提示
+  var success_prompt = function(message, time)
+  {
+      prompt(message, 'alert-success', time);
+  };
+
+  // 失败提示
+  var fail_prompt = function(message, time)
+  {
+      prompt(message, 'alert-danger', time);
+  };
+
+  // 提醒
+  var warning_prompt = function(message, time)
+  {
+      prompt(message, 'alert-warning', time);
+  };
+
+  // 信息提示
+  var info_prompt = function(message, time)
+  {
+      prompt(message, 'alert-info', time);
+  };
+
+</script>
+
+
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  let LAZY_LOAD_IMAGE = "";
+  $(".article-entry").find("fancybox").find("img").each(function () {
+      var element = document.createElement("a");
+      $(element).attr("data-fancybox", "gallery");
+      $(element).attr("href", $(this).attr("src"));
+      /* 图片采用懒加载处理时,
+       * 一般图片标签内会有个属性名来存放图片的真实地址，比如 data-original,
+       * 那么此处将原本的属性名src替换为对应属性名data-original,
+       * 修改如下
+       */
+       if (LAZY_LOAD_IMAGE) {
+         $(element).attr("href", $(this).attr("data-original"));
+       }
+      $(this).wrap(element);
+  });
+</script>
+
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>
